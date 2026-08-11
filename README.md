@@ -10,6 +10,7 @@ TODO refine and replace initial placeholder
 - add more content
 - and/or use WP or another CMS suitable for the maintainers
   - they could edit the front matter in GitHub directly
+  - how to generate and optimize images?
 
 ## Material
 
@@ -22,3 +23,11 @@ TODO refine and replace initial placeholder
   - title claim / subtitle
 - social media links?
 - imprint?
+
+## Manual Image Optimization for Placeholder Page
+
+- save JPEG for web between 70 - 80 quality
+- save another jpeg-master at 95 quality
+- derive webp and avif from the master
+  - `cwebp -q 75 -m 6 -mt -sharp_yuv thetextilebuffet-background-01-master.jpg -o thetextilebuffet-background-01.webp`
+  - `avifenc -q 65 thetextilebuffet-background-01-master.jpg -o thetextilebuffet-background-01.avif`

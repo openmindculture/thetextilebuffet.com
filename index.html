@@ -6,7 +6,8 @@
 <link rel=preload href as=font type=font/woff2 crossorigin>
 <style>
 :root{
-    --color-blue-dark-purpleish:#0014d1;
+    --color-primary-background:#0014d1;
+    --color-primary-foreground:#ffffff;
 }
 *,*::before,*::after{box-sizing:border-box}
 html,body,main,.main,p{margin:0;padding:0}
@@ -15,6 +16,8 @@ html,body{
     color:var(--color-primary-foreground);
 }
 main {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +26,23 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+main, main * {
+    background-color: transparent;
+    color:var(--color-primary-foreground);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
 main p {text-align:center;}
+.decoration {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+.decoration picture, .decoration img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 @font-face{}
 </style>
 <link rel=stylesheet media=all href="/style.css?v=0.1.0" type=text/css>
@@ -38,7 +57,17 @@ main p {text-align:center;}
 <meta property="og:image" content>
 <!-- TODO use real favicon generator for apple-touch-icon etc. -->
 </head>
-<body class="home page no-js" itemtype="https://schema.org/WebPage" itemscope>
+<body itemtype="https://schema.org/WebPage" itemscope>
+<div class="decoration">
+    <picture>
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-01.avif" type="image/avif">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-01.webp" type="image/webp">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-01.jpg" type="image/jpeg">
+        <source srcset="thetextilebuffet-background-01-mobile.avif" type="image/avif">
+        <source srcset="thetextilebuffet-background-01-mobile.webp" type="image/webp">
+        <img src="thetextilebuffet-background-01-mobile.jpg" width="1200" height="817" role="presentation">
+    </picture>
+</div>
 <header id="site-header" class="header"></header>
 <main>
     <h1>The Textile Buffet</h1>
