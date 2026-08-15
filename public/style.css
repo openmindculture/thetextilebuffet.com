@@ -1,0 +1,27 @@
+.decoration picture {
+    position: absolute;
+    inset: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.decoration picture:not(.visually-hidden) {
+    opacity: 1;
+}
+
+.decoration picture.visually-hidden {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    white-space: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .decoration picture {
+        transition: none;
+    }
+}
