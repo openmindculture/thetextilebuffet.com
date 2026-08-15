@@ -1,5 +1,7 @@
+---
+<!-- TODO adapt and reuse, make base and template(s) -->
 <!DOCTYPE html><html lang=en><head>
-<meta charset="utf-8"><title>The Textile Buffet – Website coming soon</title>
+<meta charset="utf-8"><title>The Textile Buffet – Curated Materials. Wearable Details.</title>
 <meta name=language content=en>
 <link rel=canonical href="https://thetextilebuffet.com/">
 <meta name=viewport content="width=device-width, initial-scale=1.0">
@@ -69,6 +71,9 @@ main p {
     height: 100%;
     object-fit: cover;
 }
+.visually-hidden {
+    display: none;
+}
 h1 img, h1 svg {
     width: 60vw;
     height: auto;
@@ -84,13 +89,16 @@ h1, h2, h3, h4, h5 {font-family:var(--font-heading);}
 <meta name=description content>
 <meta name=keywords content="">
 <meta name=robots content="index,follow">
-<meta property="og:title" content="The Textile Buffet – ...">
+<meta property="og:title" content="The Textile Buffet – Curated Materials. Wearable Details.">
 <meta property="og:description" content="">
 <meta property="og:url" content="https://thetextilebuffet.com/">
 <meta property="og:site_name" content="">
 <meta property="og:type" content="website">
 <meta property="og:image" content>
-<!-- TODO use real favicon generator for apple-touch-icon etc. -->
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 </head>
 <body itemtype="https://schema.org/WebPage" itemscope>
 <div class="decoration">
@@ -101,6 +109,22 @@ h1, h2, h3, h4, h5 {font-family:var(--font-heading);}
         <source srcset="thetextilebuffet-background-01-mobile.avif" type="image/avif">
         <source srcset="thetextilebuffet-background-01-mobile.webp" type="image/webp">
         <img src="thetextilebuffet-background-01-mobile.jpg" width="1200" height="817" role="presentation">
+    </picture>
+    <picture class="visually-hidden">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-02.avif" type="image/avif">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-02.webp" type="image/webp">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-02.jpg" type="image/jpeg">
+        <source srcset="thetextilebuffet-background-02-mobile.avif" type="image/avif">
+        <source srcset="thetextilebuffet-background-02-mobile.webp" type="image/webp">
+        <img src="thetextilebuffet-background-02-mobile.jpg" width="1200" height="817" role="presentation">
+    </picture>
+    <picture class="visually-hidden">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-03.avif" type="image/avif">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-03.webp" type="image/webp">
+        <source media="(min-width: 800px)" srcset="thetextilebuffet-background-03.jpg" type="image/jpeg">
+        <source srcset="thetextilebuffet-background-03-mobile.avif" type="image/avif">
+        <source srcset="thetextilebuffet-background-03-mobile.webp" type="image/webp">
+        <img src="thetextilebuffet-background-03-mobile.jpg" width="1200" height="817" role="presentation">
     </picture>
 </div>
 <header id="site-header" class="header"></header>

@@ -1,0 +1,46 @@
+{
+  "name": "thetextilebuffet",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "build:debug": "astro build --mode development",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "npm run eslint && npm run lint:css && npx astro check",
+    "eslint": "eslint src",
+    "lint:css": "stylelint \"src/**/*.css\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:astro/recommended",
+      "plugin:storybook/recommended"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/node": "^26.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.67.0",
+    "@typescript-eslint/parser": "^8.67.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-astro": "^1.7.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "prettier": "^3.9.6",
+    "prettier-plugin-astro": "^0.14.1",
+    "stylelint": "^17.14.1",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-use-nesting": "^6.0.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.67.0",
+    "vite-tsconfig-paths": "^6.1.1"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/ts-plugin": "^1.10.10",
+    "astro": "^7.2.2",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26"
+  }
+}
