@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="logo-thetextilebuffet.inkscape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.829812"
+     inkscape:cx="160.39899"
+     inkscape:cy="128.975"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="6.0143484"
+       y="11.290779"
+       width="770.42673"
+       height="250.89986"
+       id="rect129" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text127"
+       style="font-size:74.6667px;font-family:'Healthy Freak';-inkscape-font-specification:'Healthy Freak';text-align:center;white-space:pre;shape-inside:url(#rect129);display:inline;fill:#ffffff" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.9333px;font-family:'Healthy Freak';-inkscape-font-specification:'Healthy Freak';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+       x="-1.5318397"
+       y="13.920895"
+       id="text135"><tspan
+         sodipodi:role="line"
+         id="tspan133"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display Italic';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
+         x="-1.5318397"
+         y="13.920895">The <tspan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:19.7556px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium'"
+   id="tspan347">TEXTILE BUFFET</tspan></tspan></text>
+  </g>
+</svg>
