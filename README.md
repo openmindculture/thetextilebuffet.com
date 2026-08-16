@@ -1,5 +1,18 @@
 # The Textile Buffet
 
+[thetextilebuffet.com](https://thetextilebuffet.com/)
+
+## Editing Content
+
+- go to [src/content/pages](./src/content/pages),
+- click the page name you want to edit, like [Intro.md](./src/content/pages/Intro.md),
+- click "edit this file" (small pencil icon on the right),
+- change what you want to change,
+- click "Commit changes..." (green button on the right),
+- click "Commit changes" (similar green button in the middle)
+
+TODO add screenshots
+
 TODO refine and replace initial placeholder
 - use Astro to eliminate redundancies
 - prettify source and export minified
