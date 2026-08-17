@@ -12,14 +12,16 @@ const { title, description } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
-  <Head />
-  <body itemtype="https://schema.org/WebPage" itemscope>
-    <Hero />
-    <Header />
-    <main>
-      <slot />
-    </main>
-    <Footer />
-    <script src="decoration-rotator.js"></script>
+    <Head title={title} description={description} />
+    <body itemtype="https://schema.org/WebPage" itemscope>
+        <Hero />
+        <Header />
+        <main>
+            <slot />
+        </main>
+        <Footer />
+        <script>
+            import '../scripts/decoration-rotator';
+        </script>
     </body>
 </html>

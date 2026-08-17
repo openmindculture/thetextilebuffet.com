@@ -5,13 +5,15 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-import criticalStyles from '../styles/critical.css?raw';
-import '../styles/global.css'; 
+const canonicalUrl = 'https://thetextilebuffet.com/';
+
+import '../styles/global.css';
+import criticalStyles from '../styles/critical.css?inline';
 ---
 <head>
     <meta charset="utf-8" />
     <title>{title}</title>
-    <link rel=canonical href="https://thetextilebuffet.com/">
+    <link rel=canonical href={canonicalUrl}>
     <meta name=viewport content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="/fonts/work-sans-v24-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/karla-v33-latin-700.woff2" as="font" type="font/woff2" crossorigin />
@@ -21,20 +23,20 @@ import '../styles/global.css';
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name=robots content="index,follow">
-    {description && <meta name="description" content={description} />}
-    <meta property="og:title" content="The Textile Buffet – Curated Materials. Wearable Details.">
-    <meta property="og:description" content="The Textile Buffet is a collaboration by Madame Unikat and Tina Steinke.">
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description}>
     <meta property="og:url" content="https://thetextilebuffet.com/">
     <meta property="og:site_name" content="The TEXTILE BUFFET">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://thetextilebuffet.com/The-Texite-Buffet-screenshot-preview.jpg">
-    <script type=application/ld+json>{
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
         "@context":"http://schema.org",
         "@type":"Organization",
-        "name":"The Textile Buffet",
+        "name": title,
         "image":"https://thetextilebuffet.com/The-Texite-Buffet-screenshot-preview.jpg",
         "logo":"https://thetextilebuffet.com/logo-thetextilebuffet.path.svg",
-        "description":"Goodbye fast-fashion –erlebe Kreativität und Freude mit nachhaltigem Modekonsum!",
-        "url":"https://thetextilebuffet.com"
-    }</script>
+        "description": description,
+        "url": canonicalUrl
+    })} />
 </head>

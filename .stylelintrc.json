@@ -1,13 +1,15 @@
 {
-  "extends": ["stylelint-config-standard", "stylelint-config-tailwindcss"],
+  "extends": ["stylelint-config-recommended"],
   "rules": {
     "at-rule-empty-line-before": null,
     "at-rule-no-deprecated": null,
     "at-rule-no-unknown": null,
     "color-hex-length": null,
     "declaration-empty-line-before": null,
+    "font-family-name-quotes": null,
     "function-url-quotes": "always",
     "media-feature-range-notation": null,
+    "no-descending-specificity": [true, { "ignore": ["selectors-within-list"] }],
     "rule-empty-line-before": null
   }
 }

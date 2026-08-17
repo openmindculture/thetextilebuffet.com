@@ -8,7 +8,10 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 export default defineConfig({
   integrations: [sitemap()],
   vite: {
-    plugins: [tsconfigPaths() as any],
+    resolve: {
+      tsconfigPaths: true,
+    },
+    plugins: [],
     // Enable detailed error reporting
     // mode: 'development',
     // build: {

@@ -1,1 +1,25 @@
-<header id="site-header" class="header"></header>
+---
+const isHome = Astro.url.pathname === '/';
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { href: '/', label: 'Intro' },
+  { href: '/about/', label: 'About' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+<header id="site-header" class="header">
+    {!isHome && (
+        <img src="/logos/logo-thetextilebuffet.svg" alt="The Textile Buffet" />
+    )}
+    <nav>
+        <ul>
+        {navItems.map((item) => (
+            <li>
+            <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+                {item.label}
+            </a>
+            </li>
+        ))}
+        </ul>
+    </nav>
+</header>

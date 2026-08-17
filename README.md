@@ -13,6 +13,15 @@
 
 TODO add screenshots
 
+## building and testing
+
+- `npm run test`
+- `npm run build`
+- open `dist/index.html`
+- deploy to production
+
+- TODO automate using GitHub and Netlify or something similar
+
 TODO refine and replace initial placeholder
 - use Astro to eliminate redundancies
 - prettify source and export minified
