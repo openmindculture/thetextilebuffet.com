@@ -11,15 +11,30 @@ const navItems = [
     {!isHome && (
         <img src="/logos/logo-thetextilebuffet.svg" alt="The Textile Buffet" />
     )}
-    <nav>
+    <nav id="navigation-menu" class="navigation-menu">
+        <a id="site-navigation-menu-close" class="site-navigation-menu-close" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+                <title>close menu</title>
+                <path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path>
+            </svg>
+        </a>
         <ul>
         {navItems.map((item) => (
-            <li>
-            <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
-                {item.label}
-            </a>
+            <li class={currentPath === item.href ? 'active' : undefined}>
+                <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+                    {item.label}
+                </a>
             </li>
         ))}
         </ul>
     </nav>
+    <a id="site-navigation-menu-link" class="site-navigation-menu-link" href="#navigation-menu">
+        <svg width="57" height="50" viewBox="0 0 57 50" xmlns="http://www.w3.org/2000/svg"><title>open menu</title>
+            <g fill="currentColor">
+                <rect width="50" height="3" x="0" y="0"></rect>
+                <rect width="50" height="3" x="0" y="12"></rect>
+                <rect width="50" height="3" x="0" y="24"></rect>
+            </g>
+        </svg>
+    </a>
 </header>
