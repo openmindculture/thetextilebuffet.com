@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Work Sans";
-    src: url("/fonts/work-sans-v23-regular.woff2") format("woff2");
+    src: url("/fonts/work-sans-regular.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
     font-family: "Karla";
-    src: url("/fonts/karla-v22-700.woff2") format("woff2");
+    src: url("/fonts/karla-700.woff2") format("woff2");
     font-weight: 700;
     font-display: swap;
 }
@@ -107,9 +107,13 @@ a, a:link, a:visited, a:active {
 a:hover, a:focus {
     color: var(--color-rose);
 }
-footer {
-    text-align: center;
-    font-size: 1rem;
-    position: relative;
-    z-index: 2;
+.home-logo {
+    margin: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .home-logo {
+        margin: 0.5rem;
+        max-width: calc(100% - 100px);
+        height: auto;
+    }
 }
