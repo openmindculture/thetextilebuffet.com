@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-import tsconfigPaths from 'vite-tsconfig-paths';
 
 // import type { PluginOption } from 'vite';
 
