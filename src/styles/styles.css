@@ -24,3 +24,44 @@
         transition: none;
     }
 }
+
+body.home header {
+    z-index: 2;
+}
+
+header .site-navigation-menu-link {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+header .navigation-menu {
+    display: none;
+}
+header .navigation-menu.active,
+header .navigation-menu:target {
+    display: block;
+    position: fixed;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+header .navigation-menu:target + .site-navigation-menu-link {
+    display: none;
+}
+header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: var(--wp--preset--color--base);
+    z-index: 1;
+}
+header nav ul {
+    flex-direction: column;
+}
+header .site-navigation-menu-close {
+    font-size: 2rem;
+    text-decoration: none;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+}

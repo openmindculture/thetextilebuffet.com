@@ -41,6 +41,10 @@ body{
 body {
     font-size: 16px;
 }
+body.home header {
+    position: absolute;
+    inset: 0;
+}
 main {
     position: relative;
     z-index: 1;
