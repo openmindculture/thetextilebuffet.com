@@ -20,7 +20,7 @@ const isHome = Astro.url.pathname === '/';
         <main>
             <slot />
         </main>
-        {!isHome && (<Footer />)}
+        <!-- Footer /-->
         {isHome && (
             <script>
                 import '../scripts/decoration-rotator';

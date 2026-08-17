@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Work Sans";
-    src: url("/fonts/work-sans-regular.woff2") format("woff2");
+    src: url("/fonts/work-sans-latin-regular.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
     font-family: "Karla";
-    src: url("/fonts/karla-700.woff2") format("woff2");
+    src: url("/fonts/karla-latin-700.woff2") format("woff2");
     font-weight: 700;
     font-display: swap;
 }
