@@ -2,17 +2,48 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 const title = 'The Textile Buffet | Curated Materials & Styling';
 const description = 'Step up to a beautifully curated material buffet filled with fabrics, buttons, and reclaimed treasures. Turn what you find into personal clothing details.'
+const hasFooter = true;
 ---
-<BaseLayout title={title}>
-    <h1>
-        About Us
-    </h1>
-    
-    <p>
-        The Textile Buffet is a collaboration by <a href="https://madame-unikat.com/" target="_blank">Madame Unikat</a> &amp; <a href="https://kleiderordnung.berlin/" target="_blank">Tina Steinke</a> · Berlin 2026 · Social media: <a href="https://www.instagram.com/madame_unikat/" target="_blank">@madame_unikat</a> · <a href="https://www.instagram.com/tina_steinke_kleiderordnung" target="_blank">@tina_steinke_kleiderordnung</a>
-    </p>
-    <p>
-        <img src="/logos/logo-madameunikat.png" width="100" height="100" class="logo-circular" alt="Madame Unikat" />
-        <img src="/logos/kleiderordnung-logo-square-blue.png" width="100" height="100" class="logo-circular" alt="kleiderordnung personal sustainable stylist" />
-    </p>
+<BaseLayout {title} {description} {hasFooter}>
+  <h1>
+    About Us
+  </h1>
+  <p>
+    The Textile Buffet is a collaboration by
+  </p>
+  <div class="flex-has-logos">
+    <div>
+      <img src="/logos/logo-madameunikat.png" width="100" height="100" class="logo-circular" alt="Madame Unikat" />
+    </div>
+    <div>
+      <h2>Madame Unikat</h2>
+      <ul>
+        <li>
+          <a href="https://madame-unikat.com/" target="_blank">Madame-Unikat.com</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/madame_unikat/" target="_blank">@madame_unikat</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex-has-logos">
+    <div>
+      <img src="/logos/kleiderordnung-logo-square-blue.png" width="100" height="100" class="logo-circular" alt="kleiderordnung personal sustainable stylist" />
+    </div>
+    <div>
+      <h2>Tina Steinke</h2>
+      <ul>
+        <li>
+          <a href="https://kleiderordnung.berlin/" target="_blank">Kleiderordnung.Berlin</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/tina_steinke_kleiderordnung" target="_blank">@tina_steinke_kleiderordnung</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
 </BaseLayout>

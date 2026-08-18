@@ -7,20 +7,22 @@ import Footer from "../components/Footer.astro";
 interface Props {
   title: string;
   description?: string;
+  hasFooter?: boolean;
+  noLogo?: boolean;
 }
-const { title, description } = Astro.props;
+const { title, description, hasFooter, noLogo } = Astro.props;
 const isHome = Astro.url.pathname === '/';
 ---
 <!DOCTYPE html>
 <html lang="en">
-    <Head title={title} description={description} />
+    <Head {title} {description} />
     <body itemtype="https://schema.org/WebPage" itemscope class:list={['', { home: isHome }]}>
         {isHome && (<Hero />)}
-        <Header />
+        <Header {noLogo} />
         <main>
             <slot />
         </main>
-        <!-- Footer /-->
+        {hasFooter && (<Footer />)}
         {isHome && (
             <script>
                 import '../scripts/decoration-rotator';

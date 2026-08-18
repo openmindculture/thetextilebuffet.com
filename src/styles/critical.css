@@ -37,13 +37,13 @@ html,
 body{
     background-color:var(--color-charcoal);
     color:var(--color-cream);
-}
-body {
     font-size: 16px;
 }
 body.home header {
     position: absolute;
-    inset: 0;
+    top: 0;
+  right: 0;
+  left: 0;
 }
 main {
     position: relative;
@@ -53,30 +53,57 @@ main {
     align-items: center;
     justify-content: center;
     min-height: 90vh;
-    max-width: 1200px;
+    max-width: min(1200px, 100%);
     margin: 0 auto;
 }
-main, 
+main,
 main * {
     background-color: transparent;
     color:var(--color-cream);
     text-shadow: 1px 1px 1px rgba(34, 31, 26, 0.5);
 }
+
 main p {
     font-size: 2rem;
     text-align: left;
     margin-bottom: 2rem;
 }
-@media screen and (max-width: 768px) {
-    main p {
-    font-size: 1.5rem;
-    padding: 0 2rem;
+main ul ul {
+  margin-bottom: 2rem;
 }
+main div,
+main ul,
+main li {
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 1300px) {
+    main p {
+      font-size: 1.5rem;
+      padding: 0 2rem;
+  }
+  main div,
+  main ul,
+  main li {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }
 h1, h2, h3, h4, h5 {
     font-family:var(--font-heading);
 }
-h1 img, 
+
+h1 img,
 h1 svg {
     width: 60vw;
     height: auto;
@@ -84,7 +111,8 @@ h1 svg {
 @media screen and (max-width: 768px) {
     h1 img, h1 svg {
         width: 88vw;
-    } 
+      padding-top: 2rem;
+    }
 }
 .decoration {
     position: fixed;
@@ -92,7 +120,7 @@ h1 svg {
     z-index: 0;
     overflow: hidden;
 }
-.decoration picture, 
+.decoration picture,
 .decoration img {
     width: 100%;
     height: 100%;
@@ -110,10 +138,52 @@ a:hover, a:focus {
 .home-logo {
     margin: 1rem;
 }
+.flex-has-logos {
+  display: flex;
+  flex-direction: row;
+  width: min(100%, 480px);
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.flex-has-logos li {
+  line-height: 1.6;
+}
+
 @media screen and (max-width: 768px) {
     .home-logo {
-        margin: 0.5rem;
-        max-width: calc(100% - 100px);
+        margin: 5rem 0.5rem 0.5rem 0.5rem;
+        max-width: 90vw;
         height: auto;
     }
+  .flex-has-logos {
+    flex-direction: column;
+  }
+  .flex-has-logos li {
+    line-height: 2.5;
+  }
+}
+
+
+
+h1 + ul:has(h2),
+.flex-has-logos ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.flex-has-logos h2 {
+  margin-bottom: 0;
+}
+
+
+
+.flex-has-logos a {
+  text-decoration: none;
+}
+
+.float-right {
+  float: right;
 }

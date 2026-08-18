@@ -1,43 +1,47 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import organizer from '../data/organizer';
+import MapMarkerIcon from '../icons/mapmarker.svg';
 const title = 'The Textile Buffet: Events';
 const description = 'Step up to a beautifully curated material buffet filled with fabrics, buttons, and reclaimed treasures. Turn what you find into personal clothing details.'
 ---
-<BaseLayout title={title}>
+<BaseLayout {title} {description}>
     <h1>
-        The Textile Buffet
+      Events
     </h1>
-    
-    <p>
-        Step up to a beautifully curated material buffet filled with fabrics, buttons, ribbons and reclaimed treasures. Choose what catches your eye, experiment with colour and texture, and turn what you find into a personal detail for your clothing, bag or accessories.
-    </p>
-    <p>
-        Think of it as a material library and a styling installation in one, a textile treasure hunt where every dish on the table is an invitation. Come with an idea in mind, or come with none at all.
-        Pick what speaks to you, or let one of our prompts guide you.
-        You'll leave with a one-of-one piece made by your own hands, in a space designed to slow you down and reconnect you with the material and the making.
-    </p>
-    <h2>Events</h2>
+
     <ul>
         <li>
-            <h2>23.08.2026 The TEXTILE BUFFET at Lillimendelssohn, Berlin</h2>
-            <div>Sun 23 Aug 2026 14:00 - 16:30</div>
-            <div>Lillimendelssohn, Knesebeckstr. 27, 10623 Berlin, 10623</div>
+          <h2>
+            <a href="https://www.tickettailor.com/events/thetextilebuffet/2362137" target="_blank">
+              23.08.2026 The TEXTILE BUFFET at Lillimendelssohn, Berlin
+            </a>
+          </h2>
+          <div class="flex-has-logos">
+            <MapMarkerIcon />
+            <a href="https://maps.app.goo.gl/rsMUeNSgq3LP7G6u5" target="_blank">
+              Sun 23 Aug 2026 14:00 - 16:30<br>
+              Lillimendelssohn, Knesebeckstr. 27, 10623 Berlin, 10623
+            </a>
+          </div>
             <p>
                 This edition takes place at Lillimendelssohn, a Berlin knitwear label known for its distinctive use of colour, beautiful yarns and timeless design.
             </p>
-            <b>What's included:</b>
+
             <ul>
-                <li>2.5 hours of guided, hands-on making</li>
-                <li>All materials included: reclaimed fabrics, ribbons, buttons, beads, findings and more</li>
-                <li>No experience needed. Beginners and crafty hands alike are equally welcome</li>
-                <li>Two ways in: bring your own idea and build it at the buffet, or follow one of our simple guided designs</li>
-                <li>Take home a wearable piece, a brooch, bow, ornament or accessory that's entirely your own</li>
+              <li>2.5 hours of guided, hands-on making</li>
+              <li>All materials included: reclaimed fabrics, ribbons, buttons, beads, findings and more</li>
+              <li>No experience needed. Beginners and crafty hands alike are equally welcome</li>
+              <li>Two ways in: bring your own idea and build it at the buffet, or follow one of our simple guided designs</li>
+              <li>Take home a wearable piece, a brooch, bow, ornament or accessory that's entirely your own</li>
+              <li>No skills required. No pressure.</li>
+              <li>Just good materials, good company, and a little time away from the screen.</li>
             </ul>
-            <div><b>Price:</b> €55 per person</div>
-            <div><b>Spots:</b> Limited to 8 people.</div>
-            <p>No skills, no pressure. Just good materials, good company, and a little time away from the screen.</p>
-            <a href="https://www.tickettailor.com/events/thetextilebuffet/2362137" target="_blank">Booking</a>
+
+          <a class="buttonlike float-right" href="https://www.tickettailor.com/events/thetextilebuffet/2362137" target="_blank">get your ticket</a>
+
+            <p><b>Price:</b> €55 per person</p>
+            <p><b>Spots:</b> Limited to 8 people.</p>
 
             <script is:inline type="application/ld+json" set:html={JSON.stringify({
                 "@context": "https://schema.org",

@@ -1,4 +1,9 @@
 ---
+interface Props {
+  noLogo?: boolean;
+}
+
+const { noLogo } = Astro.props;
 const isHome = Astro.url.pathname === '/';
 const currentPath = Astro.url.pathname;
 const navItems = [
@@ -9,7 +14,7 @@ const navItems = [
 ];
 ---
 <header id="site-header" class="header">
-    {!isHome && (
+    {!isHome && !noLogo && (
         <a href="/">
             <img src="/logos/logo-thetextilebuffet-curated-text-cream-color.svg" width="396" height="56" class="home-logo" alt="The Textile Buffet" />
         </a>
