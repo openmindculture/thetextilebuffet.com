@@ -2,6 +2,10 @@
 
 [thetextilebuffet.com](https://thetextilebuffet.com/)
 
+![Screenshot preview](public/The-Textile-Buffet-screenshot-preview.jpg)
+
+Tech: Astro, HTML, CSS
+
 ## Editing Content
 
 - go to [src/content/pages](./src/content/pages),
