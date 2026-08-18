@@ -8,6 +8,13 @@
     opacity: 1;
 }
 
+.decoration picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .decoration picture.visually-hidden {
     display: block;
     opacity: 0;
@@ -36,9 +43,6 @@ header .site-navigation-menu-link {
     top: 1rem;
     right: 1rem;
     z-index: 20;
-}
-.navigation-menu {
-    display: none;
 }
 .navigation-menu.active,
 .navigation-menu:target {
@@ -81,6 +85,7 @@ h2 a {
   text-decoration: none;
 }
 .navigation-menu {
+    display: none;
     z-index: 10;
     margin: 0;
     padding: 0;
