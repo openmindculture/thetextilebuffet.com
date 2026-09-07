@@ -60,6 +60,7 @@ main,
 main * {
     background-color: transparent;
     color:var(--color-cream);
+    max-width: 96vw;
 }
 main *:not(.shadowlesstext) {
   text-shadow: 1px 1px 1px rgba(34, 31, 26, 0.5);
