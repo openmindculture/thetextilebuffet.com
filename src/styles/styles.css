@@ -141,3 +141,19 @@ a.buttonlike:focus {
     margin: 1rem auto;
   }
 }
+
+@media screen and (max-width: 1250px) {
+  li h2,
+  li h3,
+  li .flex-has-logos {
+    margin-left: 1rem;
+  }
+}
+
+ul.events > li + li {
+  margin-top: 5rem;
+}
+
+.boxshadow {
+  box-shadow: 1px 1px 1px rgba(34, 31, 26, 0.5);
+}

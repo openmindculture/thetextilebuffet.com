@@ -21,7 +21,8 @@ TODO add screenshots
 
 - `npm run test`
 - `npm run build`
-- open `dist/index.html`
+- open `dist/index.html` to preview the front page text
+- use the preview server (TODO)
 - deploy to production
 
 - TODO automate using GitHub and Netlify or something similar

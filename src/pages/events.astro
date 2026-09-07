@@ -10,22 +10,77 @@ const description = 'Step up to a beautifully curated material buffet filled wit
       Events
     </h1>
 
-    <ul>
+    <ul class="events">
+      <li>
+        <h2>
+          <a href="https://www.tickettailor.com/events/thetextilebuffet/2362137" target="_blank">
+            26.-27.09.2026 The TEXTILE BUFFET at Atelier ROSSA, Berlin
+          </a>
+        </h2>
+        <div class="flex-has-logos">
+          <MapMarkerIcon />
+          <a href="https://www.google.com/maps?cid=0x47a8511db49173a9:0xc6c6328c0b174c4a" target="_blank">
+            Sat 26 + Sun 27 September 2026<br>
+            Atelier ROSSA, Barbarossastr. 61, 10781 Berlin
+          </a>
+        </div>
+        <p>
+          The Textile Buffet in September 2026 takes place at Atelier ROSSA, a studio for fashion, design and art of living in Berlin Schöneberg.
+        </p>
+
+        <ul>
+          <li>Saturday 26 September 7 - 9 p.m.</li>
+          <li>Sunday 27 September 13 - 15 p.m.</li>
+          <li>Sunday 27 September 4 - 6 p.m.</li>
+          <li>Save the date,</li>
+          <li>more information and booking coming up soon!</li>
+        </ul>
+
+        <!-- <a class="buttonlike float-right" href="https://www.tickettailor.com/events/thetextilebuffet/2362137" target="_blank">get your ticket</a> -->
+<!--
+        <p><b>Price:</b> €... per person</p>
+        <p><b>Spots:</b> Limited to ... people.</p> -->
+
+        <script is:inline type="application/ld+json" set:html={JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "The TEXTILE BUFFET at Atelier ROSSA, Berlin",
+          "startDate": "2026-09-26T19:00:00+02:00",
+          "endDate": "2026-09-27T18:00:00+02:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Atelier ROSSA Design & Art of Living",
+            "hasMap": "https://www.google.com/maps?cid=0x47a8511db49173a9:0xc6c6328c0b174c4a",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Barbarossastraße. 61",
+              "postalCode": "10781",
+              "addressLocality": "Berlin",
+              "addressCountry": "DE"
+            }
+          },
+          "image": "https://thetextilebuffet.com/_astro/The-Textile-Buffet-2026-08-15-01.BIhQfjAz_1Sb6az.jpg",
+          "description": "several sessions of guided, hands-on making",
+          organizer,
+        })} />
+
+      </li>
         <li>
-          <h2>
-            <a href="https://www.tickettailor.com/events/thetextilebuffet/2362137" target="_blank">
-              23.08.2026 The TEXTILE BUFFET at Lillimendelssohn, Berlin
-            </a>
-          </h2>
+          <h2>Past Events</h2>
+          <h3>
+            23.08.2026 The TEXTILE BUFFET at Lillimendelssohn, Berlin
+          </h3>
           <div class="flex-has-logos">
             <MapMarkerIcon />
             <a href="https://maps.app.goo.gl/rsMUeNSgq3LP7G6u5" target="_blank">
               Sun 23 Aug 2026 14:00 - 16:30<br>
-              Lillimendelssohn, Knesebeckstr. 27, 10623 Berlin, 10623
+              Lillimendelssohn, Knesebeckstr. 27, 10623 Berlin,
             </a>
           </div>
             <p>
-                This edition takes place at Lillimendelssohn, a Berlin knitwear label known for its distinctive use of colour, beautiful yarns and timeless design.
+                This edition took place at Lillimendelssohn, a Berlin knitwear label known for its distinctive use of colour, beautiful yarns and timeless design.
             </p>
 
             <ul>
@@ -38,34 +93,71 @@ const description = 'Step up to a beautifully curated material buffet filled wit
               <li>Just good materials, good company, and a little time away from the screen.</li>
             </ul>
 
-          <a class="buttonlike float-right" href="https://www.tickettailor.com/events/thetextilebuffet/2362137" target="_blank">get your ticket</a>
-
-            <p><b>Price:</b> €55 per person</p>
-            <p><b>Spots:</b> Limited to 8 people.</p>
-
             <script is:inline type="application/ld+json" set:html={JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Event",
-                "name": "Berlin Tech Conference 2026",
-                "startDate": "2026-09-15T09:00:00+02:00",
-                "endDate": "2026-09-17T18:00:00+02:00",
+                "name": "The TEXTILE BUFFET at Lillimendelssohn, Berlin",
+                "startDate": "2026-08-23T14:00:00+02:00",
+                "endDate": "2026-08-23T16:30:00+02:00",
                 "eventStatus": "https://schema.org/EventScheduled",
                 "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                 "location": {
                 "@type": "Place",
-                "name": "Berlin Convention Center",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Messedamm 22",
-                    "addressLocality": "Berlin",
-                    "postalCode": "14055",
-                    "addressCountry": "DE"
-                }
+                  "name": "lillimendelssohn knits & fine products",
+                  "hasMap": "https://www.google.com/maps?cid=0x47a850fcb1de6145:0x144a8cfc7748832a",
+                  "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "Knesebeckstr. 27",
+                      "postalCode": "10623",
+                      "addressLocality": "Berlin",
+                      "addressCountry": "DE"
+                  }
                 },
-                "image": "https://example.com/berlin-tech-conference.jpg",
-                "description": "A 3-day conference for tech enthusiasts, developers, and innovators.",
+                "image": "https://thetextilebuffet.com/_astro/The-Textile-Buffet-2026-08-15-01.BIhQfjAz_1Sb6az.jpg",
+                "description": "2.5 hours of guided, hands-on making",
                 organizer,
                 })} />
         </li>
+      <li>
+        <h3>
+          23.06.2026 The TEXTILE BUFFET at Impact Hub Berlin
+        </h3>
+        <div class="flex-has-logos">
+          <MapMarkerIcon />
+          <a href="https://maps.app.goo.gl/0x47a84fbcadec8955:0x5963e6cb7c059f34" target="_blank">
+            Tue 23 June 2026 16:30 - 20:30<br>
+            Impact Hub Berlin, Rollbergstraße 28A, 12053 Berlin
+          </a>
+        </div>
+        <p>
+          This Textile Buffet took place at Impact Hub Berlin, a coworking space and innovation hub in Berlin, as part of the creative market and community night event.
+        </p>
+
+        <script is:inline type="application/ld+json" set:html={JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "The TEXTILE BUFFET at Creative Market and Community Night, Impact Hub Berlin",
+          "startDate": "2026-06-23T16:30:00+02:00",
+          "endDate": "2026-06-23T20:30:00+02:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Impact Hub Berlin",
+            "hasMap": "https://www.google.com/maps?cid=0x47a84fbcadec8955:0x5963e6cb7c059f34",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rollbergstraße 28A",
+              "postalCode": "12053",
+              "addressLocality": "Berlin",
+              "addressCountry": "DE"
+            }
+          },
+          "image": "https://thetextilebuffet.com/_astro/The-Textile-Buffet-2026-08-15-01.BIhQfjAz_1Sb6az.jpg",
+          "description": "hands-on making and exploring at the creative market and community night",
+          organizer,
+        })} />
+      </li>
     </ul>
+  <!-- TODO refactor repetitive structure to events collection with archive and sub pages -->
 </BaseLayout>
