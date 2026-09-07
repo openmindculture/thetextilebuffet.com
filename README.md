@@ -23,9 +23,7 @@ TODO add screenshots
 - `npm run build`
 - open `dist/index.html` to preview the front page text
 - use the preview server (TODO)
-- deploy to production
-
-- TODO automate using GitHub and Netlify or something similar
+- deploy to production by pushing the main branch to GitHub
 
 TODO refine and replace initial placeholder
 - use Astro to eliminate redundancies
