@@ -35,9 +35,13 @@ main,
 }
 html,
 body{
-    background-color:var(--color-charcoal);
-    color:var(--color-cream);
+    background-color:var(--color-cream);
+    color:var(--color-charcoal);
     font-size: 16px;
+}
+body.home {
+  background-color:var(--color-charcoal);
+  color:var(--color-cream);
 }
 body.home header {
     position: absolute;
@@ -59,8 +63,12 @@ main {
 main,
 main * {
     background-color: transparent;
-    color:var(--color-cream);
+    color:var(--color-charcoal);
     max-width: 96vw;
+}
+body.home main,
+body.hom main * {
+  color:var(--color-cream);
 }
 main *:not(.shadowlesstext) {
   text-shadow: 1px 1px 1px rgba(34, 31, 26, 0.5);
@@ -133,6 +141,9 @@ h1 svg {
     display: none;
 }
 a, a:link, a:visited, a:active {
+  color: var(--color-teal);
+}
+body.home main a:not(.buttonlike), body.home main a:not(.buttonlike):link, body.home main a:not(.buttonlike):visited, body.home main a:not(.buttonlike):active {
     color: var(--color-straw);
 }
 a:hover, a:focus {
