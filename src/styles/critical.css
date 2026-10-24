@@ -13,6 +13,12 @@
 :root{
     --font-heading: "Karla", "Verdana", sans-serif;
     --font-body: "Work Sans", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+    --color-pale-lemon: #f0efb6;
+    --color-pure-black: #000000;
+    --color-dark-indigo: #160c55;
+    --color-deep-pink: #e01f88;
+    --color-logo-blue: #3fa1e4;
+  /* old and possibly obsolete below: */
     --color-charcoal:#221f1a;
     --color-teal:#123a4e;
     --color-linen: #d9c6af;
@@ -35,19 +41,23 @@ main,
 }
 html,
 body{
-    background-color:var(--color-cream);
-    color:var(--color-charcoal);
+    background-color:var(--color-pale-lemon);
+    color:var(--color-pure-black);
     font-size: 16px;
 }
 body.home {
-  background-color:var(--color-charcoal);
-  color:var(--color-cream);
+  background-color:var(--color-pure-black);
+  color:var(--color-pale-lemon);
 }
 body.home header {
     position: absolute;
     top: 0;
   right: 0;
   left: 0;
+}
+body:not(.home) .header a img {
+  margin-top: 1rem;
+  margin-left: 2rem;
 }
 main {
     position: relative;
@@ -63,14 +73,14 @@ main {
 main,
 main * {
     background-color: transparent;
-    color:var(--color-charcoal);
-    max-width: 96vw;
+    color:var(--color-pure-black);
+  max-width: min(1200px, 96vw);
 }
 body.home main,
 body.hom main * {
-  color:var(--color-cream);
+  color:var(--color-pale-lemon);
 }
-main *:not(.shadowlesstext) {
+body.home main *:not(.shadowlesstext) {
   text-shadow: 1px 1px 1px rgba(34, 31, 26, 0.5);
 }
 
@@ -85,12 +95,12 @@ main ul ul {
 main div,
 main ul,
 main li {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 h1 {
   font-size: 6rem;
 }
-h2 {
+h2, h3 {
   font-size: 2.5rem;
 }
 @media screen and (max-width: 1300px) {
@@ -106,7 +116,7 @@ h2 {
   h1 {
     font-size: 4rem;
   }
-  h2 {
+  h2, h3 {
     font-size: 2rem;
   }
 }
@@ -125,6 +135,12 @@ h1 svg {
       padding-top: 2rem;
     }
 }
+body.home h1 {
+  margin: 0 auto 0 auto;
+}
+body.home h1 + a {
+  margin-top: -5rem;
+}
 .decoration {
     position: fixed;
     inset: 0;
@@ -141,26 +157,29 @@ h1 svg {
     display: none;
 }
 a, a:link, a:visited, a:active {
-  color: var(--color-teal);
+  color: var(--color-pure-black);
 }
 body.home main a:not(.buttonlike), body.home main a:not(.buttonlike):link, body.home main a:not(.buttonlike):visited, body.home main a:not(.buttonlike):active {
-    color: var(--color-straw);
+    color:var(--color-pale-lemon);
 }
 a:hover, a:focus {
-    color: var(--color-rose);
+    color: var(--color-deep-pink);
 }
 .home-logo {
     margin: 1rem;
 }
 .flex-has-logos {
+  width: min(100%, 480px);
+}
+.flex-event-info,
+.flex-has-logos {
   display: flex;
   flex-direction: row;
-  width: min(100%, 480px);
   align-items: center;
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
-
+.flex-event-info li,
 .flex-has-logos li {
   line-height: 1.6;
 }
@@ -171,29 +190,30 @@ a:hover, a:focus {
         max-width: 90vw;
         height: auto;
     }
+  .flex-event-info,
   .flex-has-logos {
     flex-direction: column;
   }
+  .flex-event-info li,
   .flex-has-logos li {
     line-height: 2.5;
   }
 }
 
-
-
 h1 + ul:has(h2),
+.flex-event-info ul,
 .flex-has-logos ul {
   list-style: none;
   padding: 0;
   margin-top: 0.5rem;
 }
 
+.flex-event-info h2,
 .flex-has-logos h2 {
   margin-bottom: 0;
 }
 
-
-
+.flex-event-info a,
 .flex-has-logos a {
   text-decoration: none;
 }

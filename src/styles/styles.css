@@ -32,8 +32,6 @@
     }
 }
 
-
-
 body.home header {
     z-index: 2;
 }
@@ -43,6 +41,9 @@ header .site-navigation-menu-link {
     top: 1rem;
     right: 1rem;
     z-index: 20;
+}
+body.home header .site-navigation-menu-link {
+  color: var(--color-pale-lemon);
 }
 .navigation-menu.active,
 .navigation-menu:target {
@@ -89,7 +90,7 @@ h2 a {
     z-index: 10;
     margin: 0;
     padding: 0;
-    background-color: var(--color-straw);
+    background-color:var(--color-pale-lemon);
     color: var(--color-charcoal);
 }
 .navigation-menu li {
@@ -106,7 +107,8 @@ h2 a {
     padding: 0.5rem 3rem;
 }
 .navigation-menu li a:hover {
-    background-color: var(--color-rose);
+  background-color: var(--color-deep-pink);
+  color: var(--color-pale-lemon);
 }
 
 footer {
@@ -121,16 +123,22 @@ footer {
 
 a.buttonlike {
   padding: 1rem 2rem;
-  background-color: var(--color-straw);
-  color: var(--color-charcoal);
+  background-color:var(--color-logo-blue);
+  color: var(--color-pale-lemon);
   border-radius: 1rem;
   text-decoration: none;
   margin: 0 1rem 1rem 0;
 }
 
+body.home a.buttonlike {
+  background-color: var(--color-pale-lemon);
+  color: var(--color-pure-black);
+}
+
 a.buttonlike:hover,
 a.buttonlike:focus {
-  background-color: var(--color-rose);
+  background-color: var(--color-deep-pink);
+  color: var(--color-pale-lemon);
 }
 
 @media screen and (max-width: 600px) {
