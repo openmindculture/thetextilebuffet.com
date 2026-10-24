@@ -1,0 +1,184 @@
+/*
+Theme Name: The Textile Buffet
+Theme URI: https://github.com/openmindculture/thetextilebuffet.com
+Text Domain: twentytwentyfive-child
+Template: twentytwentyfive
+Author: @openmindculture
+Author URI: https://www.ingo-steinke.de/
+Description: Twenty Twenty-Five Child supports the WordPress template engine (theme.json) and Gutenberg block editor
+Requires at least: 6.8
+Tested up to: 7.1
+Requires PHP: 8.2
+Version: 0.1.0
+License: proprietary
+*/
+
+:root {
+    --wp--preset--font-size--default: 2rem;
+    --wp--preset--font-size--small: 1.75rem;
+    --wp--preset--font-size--large: 2.5rem;
+    --wp--preset--font-size--largest: 6rem;
+    /* adaptive header sizes see below */
+    --wp--style--global--content-size: 1024px;
+    --wp--style--global--wide-size: 2048px;
+}
+
+html {
+    /* iOS Safari font size workaround */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 16px;
+}
+
+body, p {
+    background-color: var(--wp--preset--color--pale-lemon);
+    color: var(--wp--preset--color--dark-indigo);
+    font-family: var(--wp--preset--font-family--work-sans);
+    font-size: var(--wp--preset--font-size--default);
+    font-weight: 400; /* 400 regular normal */
+}
+
+body {
+    display: flex;
+    /* keep footer visible at the bottom (adjust to heights and spacing) */
+    min-height: calc(100vh - 3rem);
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+main,
+.site-header-inner,
+.site-footer-inner,
+.alignwide {
+    max-width: min(1024px, 96vw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ensure layout for pages with little content */
+main,
+main .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+.editor-styles-wrapper > .is-root-container.is-layout-constrained.block-editor-block-list__layout {
+    min-width: min(calc(100vw - 2rem), 992px);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .wp-block-image img {
+        width: 100%;
+    }
+
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-wrap: break-word;
+    }
+
+    main {
+        max-width: calc(100% - 2rem);
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+body > .wp-site-blocks {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+::selection {
+    background-color: var(--wp--preset--color--deep-pink);
+    color: var(--wp--preset--color--pale-lemon);
+}
+
+.wp-block-list {
+    padding-left: 0;
+}
+
+.wp-block-list li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.wp-block-list li::before {
+    content: "·";
+    padding-right: 1rem;
+}
+
+h1, body h1, :root :where(.is-layout-constrained) > h1 {
+    font-family: var(--wp--preset--font-family--karla);
+    font-size: var(--wp--preset--font-size--largest);
+}
+
+h2, body h2, :root :where(.is-layout-constrained) > h2,
+h3, body h3, :root :where(.is-layout-constrained) > h3 {
+    font-family: var(--wp--preset--font-family--karla);
+    font-size: var(--wp--preset--font-size--large);
+}
+
+/* global font family utility class names workaround */
+.has-font-family-karla {
+    font-family: var(--wp--preset--font-family--karla);
+}
+
+.has-font-family-work-sans {
+    font-family: var(--wp--preset--font-family--work-sans);
+}
+
+
+.is-horizontal {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.is-horizontal ul {
+    flex-direction: row;
+    display: flex;
+    gap: 1rem;
+}
+
+.hidden,
+.initially-hidden,
+.visually-hidden,
+.hidden-fields-container,
+.wpcf7 .hidden-fields-container {
+    display: none;
+}
+
+.initially-hidden {
+    display: none;
+}
+
+.initially-hidden:target,
+.active .initially-hidden,
+.active + .initially-hidden {
+    display: block;
+}
+
+/* hide misleading full-site editing option ("Website bearbeiten") in admin bar */
+/*
+#wp-admin-bar-site-editor {
+    display: none;
+}
+ */
+
+/* facilitate preview and testing */
+
+#wpadminbar {
+    opacity: 0.25;
+    z-index: -1;
+    transition: opacity 0.5s ease;
+}
+
+#wpadminbar:hover {
+    opacity: 1;
+    z-index: 100;
+}

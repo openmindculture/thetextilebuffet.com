@@ -1,0 +1,42 @@
+/** This preview file is NOT used in the frontend!
+    You can use it to expose theme.json colors and settings
+    redundantly for better preview, autocompletion and to prevent unresolved var() errors at development time
+ */
+
+:root {
+  /* Heading: Karla */
+  --wp--preset--font-family--karla: "Karla", "Verdana", sans-serif;
+  /* Text Body: Work Sans */
+  --wp--preset--font-family--work-sans: "Work Sans", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+  --wp--preset--color--pale-lemon: #f0efb6;
+  --wp--preset--color--dark-indigo: #160c55;
+  --wp--preset--color--deep-pink: #e01f88;
+  --wp--preset--color--aqua-blue: #3fa1e4;
+  --wp--preset--color--white: #ffffff;
+  --wp--preset-color--black: #000000;
+
+    /* Adjust the colors above to the theme.json palette for a proper editor preview!
+     * Auto-generated class names follow the pattern .has-{preset-slug}-{preset-category}
+     * e.g.
+    */
+
+    .has-pale-lemon-color {
+        color: var(--wp--preset--color--pale-lemon);
+    }
+
+    /* You might use arbitrary values below just to ensure the properties are not undefined */
+
+    --wp--preset--font-family--lato: Lato, sans-serif;
+
+    --wp--style--root--padding-top: 1rem;
+    --wp--style--root--padding-bottom: 1rem;
+    --wp--preset--font-size--small: small;
+    --wp--preset--font-size--medium: medium;
+    --wp--preset--font-size--large: large;
+    --wp--preset--spacing--30: 2rem;
+    --wp--preset--spacing--40: 3rem;
+    --wp--preset--spacing--50: 4.5rem;
+    --wp--preset--spacing--60: 7rem;
+    --wp--preset--spacing--70: 8rem;
+    --wp--preset--spacing--80: 11rem;
+}

@@ -14,10 +14,11 @@
     --font-heading: "Karla", "Verdana", sans-serif;
     --font-body: "Work Sans", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
     --color-pale-lemon: #f0efb6;
-    --color-pure-black: #000000;
     --color-dark-indigo: #160c55;
     --color-deep-pink: #e01f88;
     --color-logo-blue: #3fa1e4;
+    --color-white: #ffffff;
+  --color-black: #000000;
   /* old and possibly obsolete below: */
     --color-charcoal:#221f1a;
     --color-teal:#123a4e;
@@ -26,7 +27,7 @@
     --color-apricot: #e7b377;
     --color-straw: #e6d289;
     --color-rose: #ce8b9d;
-    --color-white: #ffffff;
+
 }
 *,*::before,*::after{
     box-sizing:border-box;
