@@ -1,0 +1,169 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#f0efb6",
+					"name": "pale lemon",
+					"slug": "pale-lemon"
+				},
+				{
+					"color": "#160c55",
+					"name": "dark indigo",
+					"slug": "dark-indigo"
+				},
+				{
+					"color": "#e01f88",
+					"name": "deep pink",
+					"slug": "deep-pink"
+				},
+				{
+					"color": "#3fa1e4",
+					"name": "aqua blue",
+					"slug": "aqua-blue"
+				},
+				{
+					"color": "#ffffff",
+					"name": "white",
+					"slug": "white"
+				},
+				{
+					"color": "#000000",
+					"name": "black",
+					"slug": "black"
+				}
+			],
+			"customDuotone": false,
+			"customGradient": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [],
+			"gradients": []
+		},
+		"layout": {
+			"contentSize": "1200px",
+			"wideSize": "2400px"
+		},
+		"spacing": {
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"size": "clamp(1.5rem, 5vw, 2rem)",
+					"slug": "30",
+					"name": "1"
+				},
+				{
+					"size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
+					"slug": "40",
+					"name": "2"
+				},
+				{
+					"size": "clamp(2.5rem, 8vw, 4.5rem)",
+					"slug": "50",
+					"name": "3"
+				},
+				{
+					"size": "clamp(3.75rem, 10vw, 7rem)",
+					"slug": "60",
+					"name": "4"
+				},
+				{
+					"size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem)",
+					"slug": "70",
+					"name": "5"
+				},
+				{
+					"size": "clamp(7rem, 14vw, 11rem)",
+					"slug": "80",
+					"name": "6"
+				}
+			],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+      "dropCap": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Karla",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./fonts/karla-latin-700.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Karla\", \"Verdana\", sans-serif",
+          "name": "Karla (Heading)",
+          "slug": "karla"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Work Sans",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./fonts/work-sans-latin-regular.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Work Sans\", \"Segoe UI\", \"Helvetica Neue\", \"Helvetica\", serif",
+          "name": "Work Sans (Text Body)",
+          "slug": "work-sans"
+        }
+      ],
+      "fontSizes": [
+        {
+          "fluid": {
+            "min": "1.5rem",
+            "max": "2rem"
+          },
+          "size": "2rem",
+          "slug": "default"
+        },
+        {
+          "fluid": {
+            "min": "0.75rem",
+            "max": "1.75rem"
+          },
+          "size": "1.75rem",
+          "slug": "small"
+        },
+        {
+          "fluid": {
+            "min": "2rem",
+            "max": "3rem"
+          },
+          "size": "2.5rem",
+          "slug": "large"
+        },
+        {
+          "fluid": {
+            "min": "5rem",
+            "max": "7rem"
+          },
+          "size": "6rem",
+          "slug": "largest"
+        }
+      ]
+    },
+		"useRootPaddingAwareAlignments": true
+	}
+}
