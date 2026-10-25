@@ -1,7 +1,7 @@
 <?php
 function save_the_date() {
 	$output = '';
-	if (function_exists('tribe_get_events')) {
+	if ( function_exists( 'tribe_get_events' ) ) {
 		$nearest_event_query = tribe_get_events( [
 			'posts_per_page' => 1,       // Limit to exactly one event
 			'start_date'     => 'now',   // Only look for events starting from right now
@@ -12,15 +12,19 @@ function save_the_date() {
 		if ( ! empty( $nearest_event_query ) ) {
 			foreach ( $nearest_event_query as $post ) {
 				setup_postdata( $post );
-				$output .= '<a href="' . esc_url( get_permalink() ) . '">' . get_the_title() . '</a>';
-				$output .=  '<p>' . tribe_get_start_date( $post ) . '</p>';
+				$output .= '<a class="buttonlike shadowlesstext boxshadow" href="';
+				$output .= esc_url( get_permalink() ) . '">Save the date: ';
+				$output .= esc_html( tribe_get_start_date( $post, false, 'j F' ) );
+				$output .= ', ';
+				$output .= esc_html( tribe_get_venue( $post ) );
+				$output .= ', ';
+				$output .= tribe_get_city( $post );
+				$output .= '</a>';
 			}
-			// Always reset post data:
-			wp_reset_postdata(); // Always reset post data
-			// Always reset post data
-			// Always reset post data
+			wp_reset_postdata();
 		}
 	}
+
 	return $output;
 }
 

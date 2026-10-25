@@ -201,3 +201,52 @@ body.home .decoration {
     height: 100%;
     object-fit: cover;
 }
+
+a.buttonlike {
+    padding: 1rem 2rem;
+    background-color:var(--wp--preset--color--aqua-blue);
+    color: var(--wp--preset--color--pale-lemon);
+    border-radius: 1rem;
+    text-decoration: none;
+    margin: 0 1rem 1rem 0;
+    line-height: 1.5;
+}
+
+body.home a.buttonlike {
+    background-color: var(--wp--preset--color--pale-lemon);
+    color: var(--wp--preset-color--black);
+    font-size: var(--wp--preset--font-size--smaller);
+}
+
+a.buttonlike:hover,
+a.buttonlike:focus {
+    background-color: var(--wp--preset--color--deep-pink);
+    color: var(--wp--preset--color--pale-lemon);
+}
+
+@media screen and (max-width: 600px) {
+    a.buttonlike {
+        float: none;
+        display: block;
+        max-width: fit-content;
+        margin: 1rem auto;
+    }
+}
+
+body.home h1.wp-block-post-title img {
+    display: block;
+    width: 60vw;
+    max-width: min(60vw, 100%);
+    height: auto;
+}
+
+header a[rel="home"] img {
+    width: 442px;
+    max-width: 80vw;
+    height: auto;
+}
+
+body.home header a[rel="home"],
+body.home header a[rel="home"] img {
+    display: none;
+}

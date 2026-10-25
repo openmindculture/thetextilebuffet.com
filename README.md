@@ -6,10 +6,19 @@
 
 Tech: WordPress, HTML, CSS
 
+## Image Rotation on Home Page (Front Page)
+
+Select which images to display in WP-Admin Appearance menu -> Image Rotation. Use drag and drop to reorder.
+
 ## Shortcodes
 
-- `[image_rotator ids=1,2,3]`
 - `[ttb_save_the_date]` (requires The Events Calendar plugin, TEC)
+
+## Full Site Editing, Development, Backup
+
+After editing header, footer etc. in WP-Admin site editor, export the modifications as a modified child-theme zip and extract the relevant changes, usually the parts and templates folders, into the child template and commit to git.
+
+Use a plugin like UpdraftPlus to backup and save the page content (database and uploads) and transfer between servers when needed.
 
 ## Recommended Plugins
 
