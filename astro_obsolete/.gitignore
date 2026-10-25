@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log*
+
+.idea/
+.cache
+.eslintcache
+dist/
+.astro/
+
+.env
+.env.production
+.DS_Store
+
+test-results

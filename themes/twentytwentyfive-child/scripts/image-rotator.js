@@ -1,19 +1,20 @@
+"use strict";
 (function initDecorationRotator() {
-    var INTERVAL_MS = 4000;
-    var HIDDEN_CLASS = 'visually-hidden';
-    var container = document.querySelector('.decoration');
+    const INTERVAL_MS = 4000;
+    const HIDDEN_CLASS = 'visually-hidden';
+    const container = document.querySelector('.decoration');
     if (!container)
         return;
-    var slides = Array.from(container.querySelectorAll(':scope > picture'));
+    const slides = Array.from(container.querySelectorAll('img'));
     if (slides.length < 2)
         return; // nothing to rotate
-    var reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    var currentIndex = slides.findIndex(function (slide) { return !slide.classList.contains(HIDDEN_CLASS); });
+    const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let currentIndex = slides.findIndex((slide) => !slide.classList.contains(HIDDEN_CLASS));
     if (currentIndex === -1)
         currentIndex = 0;
-    var timerId;
+    let timerId;
     function showSlide(index) {
-        slides.forEach(function (slide, i) {
+        slides.forEach((slide, i) => {
             if (i === index) {
                 slide.classList.remove(HIDDEN_CLASS);
             }

@@ -4,16 +4,19 @@
 
 ![Screenshot preview](public/The-Textile-Buffet-screenshot-preview.jpg)
 
-Tech: Astro, HTML, CSS
+Tech: WordPress, HTML, CSS
 
-## Editing Content
+## Shortcodes
 
-- go to [src/content/pages](./src/content/pages),
-- click the page name you want to edit, like [Intro.md](./src/content/pages/Intro.md),
-- click "edit this file" (small pencil icon on the right),
-- change what you want to change,
-- click "Commit changes..." (green button on the right),
-- click "Commit changes" (similar green button in the middle)
+- `[image_rotator ids=1,2,3]`
+- `[ttb_save_the_date]` (requires The Events Calendar plugin, TEC)
+
+## Recommended Plugins
+
+- The Events Calendar (TEC)
+- TinyPNG Image Optimization (tiny-compress-images)
+- UpdraftPlus - Backup/Restore
+- Yoast SEO (wordpress-seo)
 
 TODO add screenshots
 
