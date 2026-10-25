@@ -5,7 +5,7 @@
     const container = document.querySelector('.decoration');
     if (!container)
         return;
-    const slides = Array.from(container.querySelectorAll(':scope > picture'));
+    const slides = Array.from(container.querySelectorAll('img'));
     if (slides.length < 2)
         return; // nothing to rotate
     const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
