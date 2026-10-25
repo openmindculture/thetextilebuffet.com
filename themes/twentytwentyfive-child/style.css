@@ -183,3 +183,21 @@ h3, body h3, :root :where(.is-layout-constrained) > h3 {
     opacity: 1;
     z-index: 100;
 }
+
+body.home {
+    isolation: isolate;
+}
+
+body.home .decoration {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.decoration picture,
+.decoration img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

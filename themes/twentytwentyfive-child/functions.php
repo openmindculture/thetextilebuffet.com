@@ -9,7 +9,8 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-require_once(get_stylesheet_directory() . '/inc/shortcode/ttb-image-rotator.php');
+require_once( get_stylesheet_directory() . '/inc/image-rotator.php' );
+require_once(get_stylesheet_directory() . '/inc/shortcode/ttb-save-the-date.php');
 
 add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'twentytwentyfive-child-style', get_stylesheet_uri() );

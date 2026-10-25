@@ -23,11 +23,15 @@ function image_rotator( $ids ) {
 	return $out . '</div>';
 }
 
-add_shortcode( 'ttb_image_rotator', function ( $atts ) {
-	$atts = shortcode_atts( array( 'ids' => '' ), $atts );
-	$ids  = array_filter( array_map( 'absint', explode( ',', $atts['ids'] ) ) );
-
-	return image_rotator( $ids );
+add_action( 'wp_body_open', function() {
+	if ( ! is_front_page() && ! is_home() ) {
+		return;
+	}
+	$ids = array_filter( (array) get_option( 'ttb_rotator_images', [] ), 'wp_attachment_is_image' );
+	if ( ! $ids ) {
+		return;
+	}
+	echo image_rotator( $ids );
 } );
 
 add_action( 'wp_enqueue_scripts', function() {
