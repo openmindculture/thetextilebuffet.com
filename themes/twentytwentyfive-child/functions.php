@@ -1,5 +1,6 @@
 <?php
 /**
+ * prefix ttb (The Textile Buffet)
  * @package twentytwentyfive-child
  * @author openmindculture
  */
@@ -8,12 +9,23 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-require_once( get_stylesheet_directory() . '/inc/functions/customize-frontend.php' );
+require_once(get_stylesheet_directory() . '/inc/shortcode/ttb-decoration-rotator.php');
 
 add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'twentytwentyfive-child-style', get_stylesheet_uri() );
 	wp_dequeue_style('twentytwentyfive-style');
 	wp_dequeue_style('twentytwentyfive-block-style');
+
+	wp_enqueue_script(
+		'ttb-decoration-rotator',
+		get_theme_file_uri( '/scripts/decoration-rotator.js' ),
+		array(),
+		wp_get_theme()->get( 'Version' ),
+		array(
+			'strategy'  => 'defer',
+			'in_footer' => true,
+		)
+	);
 } );
 
 // disable "choose pattern" popup when adding a page in wp-admin
@@ -40,5 +52,5 @@ add_action( 'init', function () {
 }, 20);
 
 if (is_admin()) {
-	require_once( get_stylesheet_directory() . '/inc/functions/customize-backend.php' );
+	require_once(get_stylesheet_directory() . '/inc/customize-backend.php');
 }
