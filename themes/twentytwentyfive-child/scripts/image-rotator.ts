@@ -1,4 +1,4 @@
-(function initDecorationRotator(): void {
+(function initimageRotator(): void {
     const INTERVAL_MS = 4000;
     const HIDDEN_CLASS = 'visually-hidden';
   
