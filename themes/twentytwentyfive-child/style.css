@@ -17,6 +17,7 @@ License: proprietary
 :root {
     --wp--preset--font-size--default: 2rem;
     --wp--preset--font-size--small: 1.75rem;
+    --wp--preset--font-size--smaller: 1rem;
     --wp--preset--font-size--large: 2.5rem;
     --wp--preset--font-size--largest: 6rem;
     /* adaptive header sizes see below */
@@ -249,4 +250,62 @@ header a[rel="home"] img {
 body.home header a[rel="home"],
 body.home header a[rel="home"] img {
     display: none;
+}
+
+main .is-layout-constrained > .flex-has-logos:where(:not(.alignleft):not(.alignright):not(.alignfull)),
+.flex-has-logos {
+    display: flex;
+    flex-direction: row;
+    width: min(100%, 480px);
+    max-width: min(100%, 480px);
+    align-items: center !important;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.flex-has-logos.wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:has(img),
+.flex-has-logos > *:has(img) {
+    max-width: min(100%, 120px);
+}
+
+.flex-has-logos .wp-block-image img {
+    border-radius: 50%;
+    max-width: min(100px, 100%);
+}
+
+.flex-has-logos li {
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-has-logos {
+        flex-direction: column;
+    }
+    .flex-has-logos li {
+        line-height: 2.5;
+    }
+}
+
+.flex-has-logos ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+.flex-has-logos.wp-block-list ul li:before,
+.flex-has-logos ul li:before {
+    content: "";
+    display: none;
+}
+
+.flex-has-logos h2 {
+    margin-bottom: 0;
+}
+
+.flex-has-logos a {
+    text-decoration: none;
+}
+
+footer, footer p, footer p a {
+    font-size: var(--wp--preset--font-size--smaller);
 }

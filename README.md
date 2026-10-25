@@ -2,8 +2,6 @@
 
 [thetextilebuffet.com](https://thetextilebuffet.com/)
 
-![Screenshot preview](public/The-Textile-Buffet-screenshot-preview.jpg)
-
 Tech: WordPress, HTML, CSS
 
 ## Image Rotation on Home Page (Front Page)
@@ -16,13 +14,14 @@ Select which images to display in WP-Admin Appearance menu -> Image Rotation. Us
 
 ## Full Site Editing, Development, Backup
 
-After editing header, footer etc. in WP-Admin site editor, export the modifications as a modified child-theme zip and extract the relevant changes, usually the parts and templates folders, into the child template and commit to git.
+After editing header, footer etc. in WP-Admin site editor, export the modifications as a modified child-theme zip and extract the relevant changes, usually the parts and templates folders, into the child template and commit to git. In the Site Editor (`/wp-admin/site-editor.php?canvas=edit`), click the three vertical dots at the top right. Select “Export” from that menu.
 
 Use a plugin like UpdraftPlus to backup and save the page content (database and uploads) and transfer between servers when needed.
 
 ## Recommended Plugins
 
 - The Events Calendar (TEC)
+- Simple Page Ordering
 - TinyPNG Image Optimization (tiny-compress-images)
 - UpdraftPlus - Backup/Restore
 - Yoast SEO (wordpress-seo)
