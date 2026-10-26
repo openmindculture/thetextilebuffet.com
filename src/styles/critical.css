@@ -123,15 +123,14 @@ h2, h3 {
 h1, h2, h3, h4, h5 {
     font-family:var(--font-heading);
 }
-
-h1 img,
-h1 svg {
+body.home h1 img,
+body.homeh1 svg {
     width: 60vw;
     height: auto;
 }
 @media screen and (max-width: 768px) {
-    h1 img, h1 svg {
-        width: 88vw;
+  body.home h1 img, body.home h1 svg {
+      width: 90vw;
       padding-top: 2rem;
     }
 }
@@ -139,7 +138,12 @@ body.home h1 {
   margin: 0 auto 0 auto;
 }
 body.home h1 + a {
-  margin-top: -5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+@media screen and (max-width: 768px) {
+  body.home h1 + a {
+    font-size: 0.75rem;
+  }
 }
 .decoration {
     position: fixed;
