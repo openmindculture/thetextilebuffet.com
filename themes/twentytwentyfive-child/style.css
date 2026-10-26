@@ -234,6 +234,10 @@ a.buttonlike:focus {
     }
 }
 
+body.home h1.wp-block-post-title + *:has(a.buttonlike) {
+    text-align: center;
+}
+
 body.home h1.wp-block-post-title img {
     display: block;
     width: 60vw;

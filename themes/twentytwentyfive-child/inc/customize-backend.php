@@ -72,3 +72,38 @@ function ttb_render_settings_page() {
 	</div>
 	<?php
 }
+
+add_action( 'wp_dashboard_setup', function() {
+    wp_add_dashboard_widget(
+      'ttb_welcome_widget', // widget_id
+      'The Textile Buffet', // widget_name = title
+      'ttb_render_dashboard_widget' // callback
+    );}
+);
+
+function ttb_render_dashboard_widget() {
+  echo<<<EOT
+<style>
+  #ttb_welcome_widget {
+    background-color:#f0efb6;
+    color:#000000;
+  }
+  #ttb_welcome_widget ul li a {
+      font-size: 2rem;
+  }
+</style>
+<div>
+  <ul>
+    <li>
+      <a href="/wp-admin/edit.php?post_type=tribe_events">Edit Events</a>
+    </li>
+        <li>
+      <a href="/wp-admin/edit.php?post_type=page">Edit Pages</a>
+    </li>
+        <li>
+      <a href="/wp-admin/themes.php?page=ttb-rotator">Edit Image Rotation on Home Page</a>
+    </li>
+  </ul>
+</div>
+EOT;
+}
