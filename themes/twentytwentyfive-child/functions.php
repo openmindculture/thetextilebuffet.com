@@ -9,6 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+require_once( get_stylesheet_directory() . '/inc/events-into-navigation.php' );
 require_once( get_stylesheet_directory() . '/inc/frontpage-title-logo.php' );
 require_once( get_stylesheet_directory() . '/inc/image-rotator.php' );
 require_once(get_stylesheet_directory() . '/inc/shortcode/ttb-save-the-date.php');

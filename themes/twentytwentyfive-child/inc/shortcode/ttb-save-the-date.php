@@ -13,7 +13,14 @@ function save_the_date() {
 			foreach ( $nearest_event_query as $post ) {
 				setup_postdata( $post );
 				$output .= '<a class="buttonlike shadowlesstext boxshadow" href="';
-				$output .= esc_url( get_permalink() ) . '">Save the date: ';
+				$url = tribe_get_event_website_url( $post );
+				if ( ! empty( $url ) ) {
+					$output .= esc_url( $url );
+					$output .= '" target="_blank">';
+				} else {
+					$output .= esc_url( get_permalink( $post ) ) . '">';
+				}
+				$output .= 'Next event: ';
 				$output .= esc_html( tribe_get_start_date( $post, false, 'j F' ) );
 				$output .= ', ';
 				$output .= esc_html( tribe_get_venue( $post ) );

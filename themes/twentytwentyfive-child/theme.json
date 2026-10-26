@@ -44,8 +44,8 @@
 			"gradients": []
 		},
 		"layout": {
-			"contentSize": "1200px",
-			"wideSize": "2400px"
+			"contentSize": "64rem",
+			"wideSize": "80rem"
 		},
 		"spacing": {
 			"spacingScale": {
@@ -173,5 +173,15 @@
       ]
     },
 		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"spacing": {
+			"padding": {
+				"top": "0",
+				"right": "1rem",
+				"bottom": "0",
+				"left": "1rem"
+			}
+		}
 	}
 }

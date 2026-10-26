@@ -47,10 +47,6 @@ body {
     flex-direction: column;
 }
 
-main {
-    flex: 1;
-}
-
 main,
 .site-header-inner,
 .site-footer-inner,
@@ -213,12 +209,6 @@ a.buttonlike {
     line-height: 1.5;
 }
 
-body.home a.buttonlike {
-    background-color: var(--wp--preset--color--pale-lemon);
-    color: var(--wp--preset-color--black);
-    font-size: var(--wp--preset--font-size--smaller);
-}
-
 a.buttonlike:hover,
 a.buttonlike:focus {
     background-color: var(--wp--preset--color--deep-pink);
@@ -231,6 +221,19 @@ a.buttonlike:focus {
         display: block;
         max-width: fit-content;
         margin: 1rem auto;
+    }
+}
+
+body.home a.buttonlike {
+    background-color: var(--wp--preset--color--pale-lemon);
+    color: var(--wp--preset-color--black);
+    font-size: var(--wp--preset--font-size--smaller);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    body.home a.buttonlike {
+        font-size: 0.75rem;
     }
 }
 
@@ -247,13 +250,108 @@ body.home h1.wp-block-post-title img {
 
 header a[rel="home"] img {
     width: 442px;
-    max-width: 80vw;
+    max-width: calc(100% - 2rem);
     height: auto;
 }
 
 body.home header a[rel="home"],
 body.home header a[rel="home"] img {
     display: none;
+}
+
+header .wp-block-group:has(nav) {
+    align-self: center;
+}
+
+.wp-block-navigation__responsive-container {
+    padding-top: 3.5rem !important;
+}
+
+.wp-block-navigation__responsive-container-close,
+.wp-block-navigation__responsive-container-open {
+    color: var(--wp--preset--color--dark-indigo);
+}
+
+body.home .wp-block-navigation__responsive-container-close,
+body.home .wp-block-navigation__responsive-container-open {
+    color: var(--wp--preset--color--pale-lemon);
+}
+
+.wp-block-navigation__responsive-container-close:hover,
+.wp-block-navigation__responsive-container-open:hover {
+    color: var(--wp--preset--color--deep-pink);
+}
+
+.wp-block-navigation__responsive-container-close {
+    margin-right: 1.5rem;
+}
+
+.wp-block-navigation__responsive-container ul.wp-block-page-list {
+    padding-top: 1.5rem;
+}
+
+.wp-block-navigation__responsive-container ul li {
+    padding: 0;
+}
+
+.wp-block-navigation__responsive-container ul li a {
+    padding: 0.5rem 1rem;
+    display: block;
+    width: 100%;
+}
+
+.wp-block-navigation__responsive-container,
+.wp-block-navigation__responsive-container ul li a,
+.wp-block-navigation__responsive-container ul li a:hover {
+    font-size: var(--wp--preset--font-size--default);
+    text-decoration: none;
+}
+
+.wp-block-navigation__responsive-container ul li a:hover {
+    background-color: var(--wp--preset--color--deep-pink) !important;
+    color: var(--wp--preset--color--pale-lemon) !important;
+}
+
+/* Keyboard focus only */
+.wp-block-navigation__responsive-container ul li a:focus-visible {
+    background-color: var(--wp--preset--color--deep-pink) !important;
+    color: var(--wp--preset--color--pale-lemon) !important;
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
+
+/* Suppress persistent mouse-triggered focus styling */
+.wp-block-navigation__responsive-container ul li a:focus:not(:focus-visible) {
+    background-color: transparent !important;
+    color: inherit !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.wp-block-navigation__responsive-container ul li a:focus:not(:focus-visible):hover {
+    background-color: var(--wp--preset--color--deep-pink) !important;
+    color: var(--wp--preset--color--pale-lemon) !important;
+}
+
+.wp-block-navigation__responsive-container-close svg {
+    width: auto;
+    height: 50px;
+}
+
+.wp-block-navigation__responsive-container-open svg {
+    width: auto;
+    height: 50px;
+    transform: scaleX(1.6);
+    transform-origin: center center;
+}
+
+.wp-block-navigation__responsive-container-close:focus:not(:focus-visible),
+.wp-block-navigation__responsive-container-open:focus:not(:focus-visible) {
+    outline: none;
+}
+
+ul.wp-block-navigation {
+    padding-right: 2rem;
 }
 
 main .is-layout-constrained > .flex-has-logos:where(:not(.alignleft):not(.alignright):not(.alignfull)),
