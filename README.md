@@ -4,9 +4,9 @@
 
 Tech: WordPress, HTML, CSS
 
-## Image Rotation on Home Page (Front Page)
+## Intro Image Rotation
 
-Select which images to display in WP-Admin Appearance menu -> Image Rotation. Use drag and drop to reorder.
+Select in WP-Admin Appearance menu -> Image Rotation which images to display in the intro on the frontpage. Use drag and drop to reorder.
 
 ## Shortcodes
 

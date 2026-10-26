@@ -29,8 +29,8 @@ add_action( 'admin_init', function () {
 // 2. Menu page: Appearance → Image Rotator
 add_action( 'admin_menu', function () {
 	add_theme_page(
-		'Image Rotation on Home Page',
-		'Image Rotation',
+		'Intro Image Rotation',
+		'Intro Image Rotation',
 		'edit_theme_options',
 		'ttb-rotator',
 		'ttb_render_settings_page'
@@ -48,7 +48,7 @@ function ttb_render_settings_page() {
 		      role="img"
 		      style="float:right;display:inline-block;vertical-align:middle;cursor:help;">
 		</span>
-		<h1>Image Rotation on Home Page</h1>
+		<h1>Intro Image Rotation</h1>
 		<form method="post" action="options.php">
 			<?php settings_fields( 'ttb_settings' ); ?>
 			<input type="hidden" id="ttb-ids" name="ttb_rotator_images" value="<?php echo esc_attr( implode( ',', $ids ) ); ?>">
@@ -101,7 +101,7 @@ function ttb_render_dashboard_widget() {
       <a href="/wp-admin/edit.php?post_type=page">Edit Pages</a>
     </li>
         <li>
-      <a href="/wp-admin/themes.php?page=ttb-rotator">Edit Image Rotation on Home Page</a>
+      <a href="/wp-admin/themes.php?page=ttb-rotator">Edit Intro Images</a>
     </li>
   </ul>
 </div>
