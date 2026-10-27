@@ -18,7 +18,7 @@
     --wp--preset--color--sky: #14A0DF;
     --wp--preset--color--magenta: #e01f88;
     --wp--preset--color--dark-indigo: #160c55;
-    --wp--preset-color--ink: #000000;
+    --wp--preset--color--ink: #000000;
     --wp--preset--color--paper: #ffffff;
     --wp--preset--color--lime: #C1D262;
     --wp--preset--color--soft-pink: #F2B8DC;
@@ -35,9 +35,6 @@
     }
 
     /* You might use arbitrary values below just to ensure the properties are not undefined */
-
-    --wp--preset--font-family--lato: Lato, sans-serif;
-
     --wp--style--root--padding-top: 1rem;
     --wp--style--root--padding-bottom: 1rem;
     --wp--preset--font-size--small: small;

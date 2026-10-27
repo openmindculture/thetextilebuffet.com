@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.3" created="2026-10-27 19:42" -->
+	<!-- generator="WordPress/7.1.3" created="2026-10-28 10:15" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>The Textile Buffet</title>
 	<link>http://localhost:8778</link>
 	<description></description>
-	<pubDate>Tue, 27 Oct 2026 19:42:26 +0000</pubDate>
+	<pubDate>Wed, 28 Oct 2026 10:15:39 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8778</wp:base_site_url>
@@ -531,214 +531,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Table Talk]]></title>
-		<link>http://localhost:8778/table-talk/</link>
-		<pubDate>Sun, 25 Oct 2026 20:01:51 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8778/?page_id=44</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>What participants say:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
-<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
-<h2 class="wp-block-heading">Verbindend</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>„Man experimentiert <em>spielerisch</em> mit den Materialien und kommt dabei mit anderen super nett ins Gespräch.“</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Lena</p>
-<!-- /wp:paragraph --></blockquote>
-<!-- /wp:quote --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
-<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
-<h2 class="wp-block-heading">spielerisch</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>„Es hat richtig <em>Freude</em> gemacht, sich den eigenen Teller zu füllen.“</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Maike</p>
-<!-- /wp:paragraph --></blockquote>
-<!-- /wp:quote --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
-<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
-<h2 class="wp-block-heading">relaxing</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>"A <em>relaxed</em>, 'analog' afternoon getting creative with like-minded people"</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Yvonne</p>
-<!-- /wp:paragraph --></blockquote>
-<!-- /wp:quote --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
-<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
-<h2 class="wp-block-heading">Verbindend</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Man experimentiert spielerisch mit den Materialien und kommt dabei mit anderen super nett ins Gespräch.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Lena</p>
-<!-- /wp:paragraph --></blockquote>
-<!-- /wp:quote --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>44</wp:post_id>
-		<wp:post_date><![CDATA[2026-10-25 21:01:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-10-25 20:01:51]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 18:31:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 17:31:05]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[table-talk]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[90]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_seo_title_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[61]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_meta_description_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[22]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[The Makers]]></title>
-		<link>http://localhost:8778/about-us/</link>
-		<pubDate>Sun, 25 Oct 2026 20:19:49 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8778/?page_id=47</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"className":"is-style-section-1","layout":{"type":"constrained"}} -->
-<div class="wp-block-group is-style-section-1"><!-- wp:paragraph -->
-<p>The Textile Buffet is a collaboration by</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:columns {"className":"flex-has-logos"} -->
-<div class="wp-block-columns flex-has-logos"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost:8778/wp-content/uploads/2026/10/logo-madameunikat.png" alt="" class="wp-image-48"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading -->
-<h2 class="wp-block-heading">Madame Unikat</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><a href="https://madame-unikat.com/" target="_blank" rel="noopener">Madame-Unikat.com</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a href="https://www.instagram.com/madame_unikat/" target="_blank" rel="noopener">@madame_unikat</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns {"className":"flex-has-logos"} -->
-<div class="wp-block-columns flex-has-logos"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":49,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost:8778/wp-content/uploads/2026/10/kleiderordnung-logo-square-blue.png" alt="" class="wp-image-49"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading -->
-<h2 class="wp-block-heading">Tina Steinke</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><a href="https://kleiderordnung.berlin/" target="_blank" rel="noopener">Kleiderordnung.Berlin</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a href="https://www.instagram.com/tina_steinke_kleiderordnung" target="_blank" rel="noopener">@tina_steinke_kleiderordnung</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>47</wp:post_id>
-		<wp:post_date><![CDATA[2026-10-25 21:19:49]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-10-25 20:19:49]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 20:16:52]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 19:16:52]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about-us]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[90]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_seo_title_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[61]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_meta_description_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[22]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[logo-madameunikat]]></title>
 		<link>http://localhost:8778/about-us/logo-madameunikat/</link>
 		<pubDate>Sun, 25 Oct 2026 20:18:27 +0000</pubDate>
@@ -985,6 +777,76 @@
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[safety-pin-revival-looptopia-berlin-2026-the-textile-buffet]]></title>
+		<link>http://localhost:8778/event/14-15-11-26-looptopia-a-la-mode-berlin/safety-pin-revival-looptopia-berlin-2026-the-textile-buffet/</link>
+		<pubDate>Wed, 28 Oct 2026 09:09:40 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/wp-content/uploads/2026/10/safety-pin-revival-looptopia-berlin-2026-the-textile-buffet.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>143</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-28 10:09:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-28 09:09:40]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-28 10:10:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-28 09:10:10]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[safety-pin-revival-looptopia-berlin-2026-the-textile-buffet]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>130</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost:8778/wp-content/uploads/2026/10/safety-pin-revival-looptopia-berlin-2026-the-textile-buffet.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/10/safety-pin-revival-looptopia-berlin-2026-the-textile-buffet.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1172;s:6:"height";i:373;s:4:"file";s:71:"2026/10/safety-pin-revival-looptopia-berlin-2026-the-textile-buffet.jpg";s:8:"filesize";i:183932;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:70:"safety-pin-revival-looptopia-berlin-2026-the-textile-buffet-300x95.jpg";s:5:"width";i:300;s:6:"height";i:95;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:8755;}s:5:"large";a:5:{s:4:"file";s:72:"safety-pin-revival-looptopia-berlin-2026-the-textile-buffet-1024x326.jpg";s:5:"width";i:1024;s:6:"height";i:326;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:49236;}s:9:"thumbnail";a:5:{s:4:"file";s:71:"safety-pin-revival-looptopia-berlin-2026-the-textile-buffet-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:6277;}s:12:"medium_large";a:5:{s:4:"file";s:71:"safety-pin-revival-looptopia-berlin-2026-the-textile-buffet-768x244.jpg";s:5:"width";i:768;s:6:"height";i:244;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:34354;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Safety Pin Revival / The Textile Buffet / LOOPTOPIA Berlin 2026]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[amgky1av2ygyxnge27ok]]></title>
+		<link>http://localhost:8778/event/the-textile-buffet-at-the-gallery-of-things-berlin-november-2026/amgky1av2ygyxnge27ok/</link>
+		<pubDate>Wed, 28 Oct 2026 09:21:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/wp-content/uploads/2026/10/amgky1av2ygyxnge27ok.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>144</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-28 10:21:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-28 09:21:18]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-28 10:21:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-28 09:21:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[amgky1av2ygyxnge27ok]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>9</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost:8778/wp-content/uploads/2026/10/amgky1av2ygyxnge27ok.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/10/amgky1av2ygyxnge27ok.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1172;s:6:"height";i:373;s:4:"file";s:32:"2026/10/amgky1av2ygyxnge27ok.jpg";s:8:"filesize";i:154022;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:31:"amgky1av2ygyxnge27ok-300x95.jpg";s:5:"width";i:300;s:6:"height";i:95;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:7822;}s:5:"large";a:5:{s:4:"file";s:33:"amgky1av2ygyxnge27ok-1024x326.jpg";s:5:"width";i:1024;s:6:"height";i:326;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:42969;}s:9:"thumbnail";a:5:{s:4:"file";s:32:"amgky1av2ygyxnge27ok-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:6243;}s:12:"medium_large";a:5:{s:4:"file";s:32:"amgky1av2ygyxnge27ok-768x244.jpg";s:5:"width";i:768;s:6:"height";i:244;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:29272;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Hello world!]]></title>
 		<link>http://localhost:8778/?p=1</link>
 		<pubDate>Sat, 24 Oct 2026 14:41:18 +0000</pubDate>
@@ -1211,7 +1073,12 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8778/?post_type=tribe_events&#038;p=9</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h3>Unmuse yourself, one detail at a time.</h3>
+		<content:encoded><![CDATA[<ul>
+ 	<li>Saturday 21 November 5 - 7:30 p.m.</li>
+ 	<li>Sunday 22 November 12 - 2:30 p.m.</li>
+ 	<li>Sunday 22 November 3:30 - 6 p.m.</li>
+</ul>
+<h3>Unmuse yourself, one detail at a time.</h3>
 For centuries, the muse was adorned, dressed and styled by others. The TEXTILE BUFFET is a participatory installation that hands this power back to you.
 
 Laid out like a banquet, an abundance of reclaimed materials, sourced from flea markets, vintage collections and local designers, waits for you to become the curator. Pick what catches your eye, then, at the makers' table, combine, rearrange and shape your selection into a singular wearable detail.
@@ -1233,12 +1100,15 @@ What's included:
 <b>Price:</b> € 55,- per person, € 80,- for two
 
 <b>Spots:</b> Limited to 8 people per session.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<excerpt:encoded><![CDATA[Unmuse yourself, one detail at a time. For centuries, the muse was adorned, dressed and styled by others. The TEXTILE BUFFET is a participatory installation that hands this power back to you. Laid out like a banquet, an abundance of reclaimed materials, sourced from flea markets, vintage collections and local designers, waits for you to become the curator. Pick what catches your eye, then, at the makers' table, combine, rearrange and shape your selection into a singular wearable detail.
+
+Every fragment carries someone else's story. In your hands, it finds a new voice, and you become muse and maker at once.
+This special edition takes place at The Gallery of Things in Zehlendorf in the context of the exhibition UNMUSED.  It's the perfect occasion to bring a friend, and we've put together a special rate for two ;)]]></excerpt:encoded>
 		<wp:post_id>9</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-25 11:09:03]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-25 10:09:03]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-25 11:59:36]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-25 10:59:36]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-28 11:12:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-28 10:12:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[the-textile-buffet-at-the-gallery-of-things-berlin-november-2026]]></wp:post_name>
@@ -1254,7 +1124,7 @@ What's included:
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_tribe_modified_fields]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:27:{s:12:"_EventOrigin";i:1792926067;s:10:"_edit_last";i:1792926103;s:10:"post_title";i:1792926114;s:11:"post_status";i:1792926543;s:17:"_wp_page_template";i:1792926123;s:17:"_EventShowMapLink";i:1792929576;s:13:"_EventShowMap";i:1792929576;s:15:"_EventStartDate";i:1792926543;s:13:"_EventEndDate";i:1792926543;s:18:"_EventStartDateUTC";i:1792926543;s:16:"_EventEndDateUTC";i:1792926543;s:14:"_EventDuration";i:1792926543;s:20:"_EventCurrencySymbol";i:1792926123;s:18:"_EventCurrencyCode";i:1792926123;s:22:"_EventCurrencyPosition";i:1792926123;s:10:"_EventCost";i:1792926123;s:9:"_EventURL";i:1792926543;s:14:"_EventTimezone";i:1792926123;s:18:"_EventTimezoneAbbr";i:1792926123;s:12:"post_content";i:1792926543;s:13:"_EventVenueID";i:1792926543;s:17:"_EventOrganizerID";i:1792929576;s:37:"_yoast_wpseo_primary_tribe_events_cat";i:1792929576;s:26:"_yoast_wpseo_content_score";i:1792929576;s:28:"_yoast_wpseo_seo_title_score";i:1792929576;s:35:"_yoast_wpseo_meta_description_score";i:1792929576;s:43:"_yoast_wpseo_estimated-reading-time-minutes";i:1792929576;}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:30:{s:12:"_EventOrigin";i:1792926067;s:10:"_edit_last";i:1792926103;s:10:"post_title";i:1792926114;s:11:"post_status";i:1792926543;s:17:"_wp_page_template";i:1792926123;s:17:"_EventShowMapLink";i:1793185943;s:13:"_EventShowMap";i:1792929576;s:15:"_EventStartDate";i:1792926543;s:13:"_EventEndDate";i:1792926543;s:18:"_EventStartDateUTC";i:1792926543;s:16:"_EventEndDateUTC";i:1792926543;s:14:"_EventDuration";i:1792926543;s:20:"_EventCurrencySymbol";i:1792926123;s:18:"_EventCurrencyCode";i:1792926123;s:22:"_EventCurrencyPosition";i:1792926123;s:10:"_EventCost";i:1792926123;s:9:"_EventURL";i:1792926543;s:14:"_EventTimezone";i:1792926123;s:18:"_EventTimezoneAbbr";i:1792926123;s:12:"post_content";i:1793135992;s:13:"_EventVenueID";i:1792926543;s:17:"_EventOrganizerID";i:1792929576;s:37:"_yoast_wpseo_primary_tribe_events_cat";i:1792929576;s:26:"_yoast_wpseo_content_score";i:1793135992;s:28:"_yoast_wpseo_seo_title_score";i:1792929576;s:35:"_yoast_wpseo_meta_description_score";i:1792929576;s:43:"_yoast_wpseo_estimated-reading-time-minutes";i:1792929576;s:13:"schedule_text";i:1793135621;s:12:"post_excerpt";i:1793143078;s:13:"_thumbnail_id";i:1793182882;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -1330,7 +1200,7 @@ What's included:
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		<wp:meta_value><![CDATA[90]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_yoast_wpseo_seo_title_score]]></wp:meta_key>
@@ -1343,6 +1213,14 @@ What's included:
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[schedule_text]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Sat 21 + Sun 22 November 26 (4 sessions)]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[144]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1401,84 +1279,6 @@ What's included:
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="wp_theme" nicename="tec"><![CDATA[tec]]></category>
 						</item>
-					<item>
-		<title><![CDATA[Header]]></title>
-		<link>http://localhost:8778/header/</link>
-		<pubDate>Sun, 25 Oct 2026 18:16:19 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8778/header/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"patternName":"twentytwentyfive/header","name":"Header","description":"Site header with site title and navigation.","categories":["header"]},"align":"full","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:image {"lightbox":{"enabled":false},"id":33,"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="/" rel="home"><img src="http://localhost:8778/wp-content/uploads/2026/10/textile-buffet-lockup-wide-tagline-pale-lemon-2-1024x256.png" alt="The Textile Buffet: Curated materials. Wearable details." class="wp-image-33"/></a></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"always","icon":"menu","overlayBackgroundColor":"base","overlayTextColor":"contrast","layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap"}} --><!-- wp:page-list /--><!-- /wp:navigation --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
-		<wp:post_date><![CDATA[2026-10-25 19:16:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-10-25 18:16:19]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-26 14:17:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-26 13:17:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[header]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
-		<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Footer]]></title>
-		<link>http://localhost:8778/footer/</link>
-		<pubDate>Sun, 25 Oct 2026 19:25:07 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8778/footer/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"patternName":"twentytwentyfive/footer","name":"Footer","description":"Footer columns with logo, title, tagline and links.","categories":["footer"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-<p class="has-text-align-center">© 2026 Madame Unikat and Tina Steinke, Berlin. Web development: <a href="https://www.ingo-steinke.de/" target="_blank" rel="noopener">Ingo Steinke</a>.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>39</wp:post_id>
-		<wp:post_date><![CDATA[2026-10-25 20:25:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-10-25 19:25:07]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 20:25:24]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 19:25:24]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[footer]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
-		<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
 					<item>
 		<title><![CDATA[Table Talks no post]]></title>
 		<link>http://localhost:8778/?p=40</link>
@@ -1561,127 +1361,211 @@ What's included:
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Front Page]]></title>
-		<link>http://localhost:8778/front-page/</link>
-		<pubDate>Mon, 26 Oct 2026 07:53:42 +0000</pubDate>
+		<title><![CDATA[Table Talk]]></title>
+		<link>http://localhost:8778/table-talk/</link>
+		<pubDate>Sun, 25 Oct 2026 20:01:51 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8778/front-page/</guid>
+		<guid isPermaLink="false">http://localhost:8778/?page_id=44</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentytwentyfive-child"} /-->
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>What participants say:</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-		<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
-		<!-- wp:post-title {"level":1} /-->
-		<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
-	</div>
-	<!-- /wp:group -->
-</main>
-<!-- /wp:group -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[Displays your site's homepage, whether it is set to display latest posts or a static page. The Front Page template takes precedence over all templates.]]></excerpt:encoded>
-		<wp:post_id>53</wp:post_id>
-		<wp:post_date><![CDATA[2026-10-26 08:53:42]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-10-26 07:53:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-26 08:54:01]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-26 07:54:01]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[front-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[is_wp_suggestion]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[page-about-us]]></title>
-		<link>http://localhost:8778/page-about-us/</link>
-		<pubDate>Mon, 26 Oct 2026 12:49:53 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8778/page-about-us/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentytwentyfive-child"} /-->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
+<h2 class="wp-block-heading">Verbindend</h2>
+<!-- /wp:heading -->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-		<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
-		<!-- wp:post-title {"level":1} /-->
-		<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
-	</div>
-	<!-- /wp:group -->
-</main>
-<!-- /wp:group -->
+<!-- wp:paragraph -->
+<p>„Man experimentiert <em>spielerisch</em> mit den Materialien und kommt dabei mit anderen super nett ins Gespräch.“</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:template-part {"slug":"footer","theme":"twentytwentyfive-child"} /-->
-]]></content:encoded>
+<!-- wp:paragraph -->
+<p>Lena</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
+<h2 class="wp-block-heading">spielerisch</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>„Es hat richtig <em>Freude</em> gemacht, sich den eigenen Teller zu füllen.“</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Maike</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
+<h2 class="wp-block-heading">relaxing</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>"A <em>relaxed</em>, 'analog' afternoon getting creative with like-minded people"</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Yvonne</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
+<h2 class="wp-block-heading">Verbindend</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Man experimentiert spielerisch mit den Materialien und kommt dabei mit anderen super nett ins Gespräch.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lena</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>58</wp:post_id>
-		<wp:post_date><![CDATA[2026-10-26 13:49:53]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-10-26 12:49:53]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-26 13:50:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-26 12:50:12]]></wp:post_modified_gmt>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-25 21:01:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-25 20:01:51]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 18:31:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 17:31:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[page-about-us]]></wp:post_name>
+		<wp:post_name><![CDATA[table-talk]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[is_wp_suggestion]]></wp:meta_key>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_seo_title_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[61]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_meta_description_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[22]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Pages]]></title>
-		<link>http://localhost:8778/page/</link>
-		<pubDate>Mon, 26 Oct 2026 12:50:45 +0000</pubDate>
+		<title><![CDATA[The Makers]]></title>
+		<link>http://localhost:8778/about-us/</link>
+		<pubDate>Sun, 25 Oct 2026 20:19:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8778/page/</guid>
+		<guid isPermaLink="false">http://localhost:8778/?page_id=47</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentytwentyfive-child"} /-->
+		<content:encoded><![CDATA[<!-- wp:group {"className":"is-style-section-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-section-1"><!-- wp:paragraph -->
+<p>The Textile Buffet is a collaboration by</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60);padding-right:0;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-right:0;padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:post-featured-image {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+<!-- wp:columns {"className":"flex-has-logos"} -->
+<div class="wp-block-columns flex-has-logos"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":48,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="http://localhost:8778/wp-content/uploads/2026/10/logo-madameunikat.png" alt="" class="wp-image-48"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
 
-<!-- wp:post-title {"level":1} /-->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading -->
+<h2 class="wp-block-heading">Madame Unikat</h2>
+<!-- /wp:heading -->
 
-<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /--></div>
-<!-- /wp:group --></main>
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://madame-unikat.com/" target="_blank" rel="noopener">Madame-Unikat.com</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="https://www.instagram.com/madame_unikat/" target="_blank" rel="noopener">@madame_unikat</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"className":"flex-has-logos"} -->
+<div class="wp-block-columns flex-has-logos"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"id":49,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="http://localhost:8778/wp-content/uploads/2026/10/kleiderordnung-logo-square-blue.png" alt="" class="wp-image-49"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading -->
+<h2 class="wp-block-heading">Tina Steinke</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://kleiderordnung.berlin/" target="_blank" rel="noopener">Kleiderordnung.Berlin</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="https://www.instagram.com/tina_steinke_kleiderordnung" target="_blank" rel="noopener">@tina_steinke_kleiderordnung</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[Displays a static page unless a custom template has been applied to that page or a dedicated template exists.]]></excerpt:encoded>
-		<wp:post_id>60</wp:post_id>
-		<wp:post_date><![CDATA[2026-10-26 13:50:45]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-10-26 12:50:45]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 14:42:29]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 13:42:29]]></wp:post_modified_gmt>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-25 21:19:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-25 20:19:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:16:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:16:52]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[page]]></wp:post_name>
+		<wp:post_name><![CDATA[about-us]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_seo_title_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[61]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_meta_description_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[22]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2062,6 +1946,693 @@ What's included:
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[14. - 15.11.26 LOOPTOPIA @ à la mode, Berlin]]></title>
+		<link>http://localhost:8778/event/14-15-11-26-looptopia-a-la-mode-berlin/</link>
+		<pubDate>Tue, 27 Oct 2026 20:39:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/?post_type=tribe_events&#038;p=130</guid>
+		<description></description>
+		<content:encoded><![CDATA[<ul>
+ 	<li>Saturday 14 November 4 - 5:30 p.m.</li>
+ 	<li>Saturday 14 November 6 - 7:30 p.m.</li>
+ 	<li>Sunday 15 November 2 - 3:30 p.m.</li>
+ 	<li>Sunday 15 November 4 - 5:30 p.m.</li>
+</ul>
+<h3>Safety Pin Revival: from useful to iconic, and back again.</h3>
+The safety pin has seen a lot. It started as a practical everyday helper, present in every sewing or travel kit, to become a rebellious symbol of punk culture and has been revisited by many Fashion creators.
+
+For LOOPTOPIA Berlin 2026, THE TEXTILE BUFFET gives this small all-rounder a fresh take.
+
+We set up an abundant table at à la mode, where you'll find lace, velvet ribbons, sequins, buttons, found pieces and fabric scraps, including materials straight from the tailoring studio. We invite you to play with colours, shapes and textures, to create your special safety pin.
+
+Worn as an accessory for your jacket, coat or bag. It can give your garment garment a new accent, or help cover a small flaw. Cherry on top of the cake? Whenever you need the safety pin for something else entirely, you already have it with you.
+
+THE TEXTILE BUFFET is a natural fit for LOOPTOPIA, the Weekend of events dedicated to the circular economy: we work with what already exists, rediscover materials and show how small changes can spark the desire to keep wearing our clothes for longer, and in new ways.
+
+For this public edition, we've created an inclusive format: a 90-minute sitting for only €15.
+
+No prior experience needed. Curiosity and a wish to try things out are all you need.
+
+What's included:
+<ul>
+ 	<li>90 minutes at the makers' table</li>
+ 	<li>All materials and tools provided</li>
+ 	<li>Leave with your own one-of-one safety pin, made by your own hands</li>
+</ul>
+<b>Price:</b> € 15,- per person
+
+<b>Spots:</b> Limited to 12 people per session.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Safety Pin Revival: from useful to iconic, and back again.
+
+The safety pin has seen a lot. It started as a practical everyday helper, present in every sewing or travel kit, to become a rebellious symbol of punk culture and has been revisited by many Fashion creators.
+
+For LOOPTOPIA Berlin 2026, THE TEXTILE BUFFET gives this small all-rounder a fresh take.
+
+We set up an abundant table at à la mode, where you'll find lace, velvet ribbons, sequins, buttons, found pieces and fabric scraps, including materials straight from the tailoring studio. We invite you to play with colours, shapes and textures, to create your special safety pin.
+
+Worn as an accessory for your jacket, coat or bag. It can give your garment garment a new accent, or help cover a small flaw. Cherry on top of the cake? Whenever you need the safety pin for something else entirely, you already have it with you.
+
+THE TEXTILE BUFFET is a natural fit for LOOPTOPIA, the Weekend of events dedicated to the circular economy: we work with what already exists, rediscover materials and show how small changes can spark the desire to keep wearing our clothes for longer, and in new ways.
+
+For this public edition, we've created an inclusive format: a 90-minute sitting for only €15.]]></excerpt:encoded>
+		<wp:post_id>130</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 21:39:56]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 20:39:56]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-28 10:51:51]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-28 09:51:51]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[14-15-11-26-looptopia-a-la-mode-berlin]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[tribe_events]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventOrigin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[events-calendar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_tribe_modified_fields]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:29:{s:12:"_EventOrigin";i:1793134920;s:10:"_edit_last";i:1793134978;s:10:"post_title";i:1793134978;s:11:"post_status";i:1793137196;s:13:"schedule_text";i:1793136994;s:17:"_wp_page_template";i:1793136994;s:17:"_EventShowMapLink";i:1793136994;s:13:"_EventShowMap";i:1793136994;s:15:"_EventStartDate";i:1793136994;s:13:"_EventEndDate";i:1793136994;s:18:"_EventStartDateUTC";i:1793136994;s:16:"_EventEndDateUTC";i:1793136994;s:14:"_EventDuration";i:1793136994;s:20:"_EventCurrencySymbol";i:1793136994;s:18:"_EventCurrencyCode";i:1793136994;s:22:"_EventCurrencyPosition";i:1793136994;s:10:"_EventCost";i:1793136994;s:9:"_EventURL";i:1793137196;s:14:"_EventTimezone";i:1793136994;s:18:"_EventTimezoneAbbr";i:1793136994;s:37:"_yoast_wpseo_primary_tribe_events_cat";i:1793136994;s:26:"_yoast_wpseo_content_score";i:1793137196;s:28:"_yoast_wpseo_seo_title_score";i:1793136994;s:35:"_yoast_wpseo_meta_description_score";i:1793136994;s:43:"_yoast_wpseo_estimated-reading-time-minutes";i:1793136994;s:12:"post_content";i:1793137497;s:13:"_EventVenueID";i:1793137196;s:12:"post_excerpt";i:1793143029;s:13:"_thumbnail_id";i:1793182218;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[schedule_text]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Sat 14 + Sun 15 November 26]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMapLink]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMap]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventStartDate]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-11-21 17:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventEndDate]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-11-22 18:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventStartDateUTC]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-11-21 16:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventEndDateUTC]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-11-22 17:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventDuration]]></wp:meta_key>
+		<wp:meta_value><![CDATA[90000]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCurrencySymbol]]></wp:meta_key>
+		<wp:meta_value><![CDATA[€]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCurrencyCode]]></wp:meta_key>
+		<wp:meta_value><![CDATA[EUR]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCurrencyPosition]]></wp:meta_key>
+		<wp:meta_value><![CDATA[prefix]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCost]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventURL]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://www.tickettailor.com/events/thetextilebuffet/2487768?date=2026-11-15]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventTimezone]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Europe/Berlin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventTimezoneAbbr]]></wp:meta_key>
+		<wp:meta_value><![CDATA[CET]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_primary_tribe_events_cat]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_seo_title_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[61]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_meta_description_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[22]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventVenueID]]></wp:meta_key>
+		<wp:meta_value><![CDATA[133]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[143]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[à la mode Schneiderei und Atelier, Berlin]]></title>
+		<link>http://localhost:8778/venue/a-la-mode-berlin/</link>
+		<pubDate>Tue, 27 Oct 2026 20:39:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/venue/a-la-mode-berlin/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>133</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 21:39:56]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 20:39:56]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 21:40:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 20:40:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[a-la-mode-berlin]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[tribe_venue]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueOrigin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[events-calendar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_tribe_modified_fields]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:17:{s:12:"_VenueOrigin";i:1793137196;s:17:"_EventShowMapLink";i:1793137196;s:13:"_EventShowMap";i:1793137233;s:17:"_VenueShowMapLink";i:1793137196;s:13:"_VenueShowMap";i:1793137233;s:13:"_VenueVenueID";i:1793137196;s:13:"_VenueAddress";i:1793137196;s:10:"_VenueCity";i:1793137196;s:13:"_VenueCountry";i:1793137196;s:14:"_VenueProvince";i:1793137196;s:11:"_VenueState";i:1793137196;s:9:"_VenueZip";i:1793137196;s:11:"_VenuePhone";i:1793137196;s:9:"_VenueURL";i:1793137196;s:19:"_VenueStateProvince";i:1793137196;s:10:"_edit_last";i:1793137233;s:10:"post_title";i:1793137233;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMapLink]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMap]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueShowMapLink]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueShowMap]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueVenueID]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueAddress]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Aufbau Haus, Prinzenstraße 85 C]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueCity]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Berlin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueCountry]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Germany]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueProvince]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueState]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueZip]]></wp:meta_key>
+		<wp:meta_value><![CDATA[10969]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenuePhone]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueURL]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://alamode.berlin/]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueStateProvince]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The TEXTILE BUFFET at Atelier ROSSA, Berlin]]></title>
+		<link>http://localhost:8778/event/the-textile-buffet-at-atelier-rossa-berlin/</link>
+		<pubDate>Wed, 28 Oct 2026 09:50:23 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/?post_type=tribe_events&#038;p=145</guid>
+		<description></description>
+		<content:encoded><![CDATA[<ul>
+ 	<li>Saturday 26 September 6 - 8 p.m.</li>
+ 	<li>Sunday 27 September 13 - 15 p.m.</li>
+ 	<li>Sunday 27 September 4 - 6 p.m.</li>
+</ul>
+What's included:
+<ul>
+ 	<li>2 hours of guided, hands-on making</li>
+ 	<li>All materials and tools provided</li>
+ 	<li>No experience needed, beginners and crafty hands alike are equally welcome</li>
+ 	<li>Two ways in: bring your own idea and build it at the buffet, or follow one of our simple guided designs</li>
+ 	<li>Take home a wearable piece (brooch, earrings, hairpiece, bag charm or ornament)</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[The Textile Buffet in September 2026 took place at Atelier ROSSA, a studio for fashion, design and art of living in Berlin Schöneberg, with 3 sessions of 2 hours of guided, hands-on making to take home a wearable piece (brooch, earrings, hairpiece, bag charm or ornament).]]></excerpt:encoded>
+		<wp:post_id>145</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-28 10:50:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-28 09:50:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-28 10:50:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-28 09:50:23]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-textile-buffet-at-atelier-rossa-berlin]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[tribe_events]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventOrigin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[events-calendar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_tribe_modified_fields]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:28:{s:12:"_EventOrigin";i:1793184365;s:10:"_edit_last";i:1793184441;s:10:"post_title";i:1793184441;s:12:"post_content";i:1793184623;s:12:"post_excerpt";i:1793184562;s:11:"post_status";i:1793184623;s:13:"schedule_text";i:1793184623;s:17:"_wp_page_template";i:1793184623;s:17:"_EventShowMapLink";i:1793184623;s:13:"_EventShowMap";i:1793184623;s:13:"_EventVenueID";i:1793184623;s:15:"_EventStartDate";i:1793184623;s:13:"_EventEndDate";i:1793184623;s:18:"_EventStartDateUTC";i:1793184623;s:16:"_EventEndDateUTC";i:1793184623;s:14:"_EventDuration";i:1793184623;s:20:"_EventCurrencySymbol";i:1793184623;s:18:"_EventCurrencyCode";i:1793184623;s:22:"_EventCurrencyPosition";i:1793184623;s:10:"_EventCost";i:1793184623;s:9:"_EventURL";i:1793184623;s:14:"_EventTimezone";i:1793184623;s:18:"_EventTimezoneAbbr";i:1793184623;s:37:"_yoast_wpseo_primary_tribe_events_cat";i:1793184623;s:26:"_yoast_wpseo_content_score";i:1793184623;s:28:"_yoast_wpseo_seo_title_score";i:1793184623;s:35:"_yoast_wpseo_meta_description_score";i:1793184623;s:43:"_yoast_wpseo_estimated-reading-time-minutes";i:1793184623;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[schedule_text]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Sat 26 + Sun 27 September 26]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMapLink]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMap]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventVenueID]]></wp:meta_key>
+		<wp:meta_value><![CDATA[146]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventStartDate]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-09-26 18:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventEndDate]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-09-27 18:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventStartDateUTC]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-09-26 16:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventEndDateUTC]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-09-27 16:00:00]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventDuration]]></wp:meta_key>
+		<wp:meta_value><![CDATA[86400]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCurrencySymbol]]></wp:meta_key>
+		<wp:meta_value><![CDATA[€]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCurrencyCode]]></wp:meta_key>
+		<wp:meta_value><![CDATA[EUR]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCurrencyPosition]]></wp:meta_key>
+		<wp:meta_value><![CDATA[prefix]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventCost]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventURL]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://www.tickettailor.com/events/thetextilebuffet/2406271]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventTimezone]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Europe/Berlin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventTimezoneAbbr]]></wp:meta_key>
+		<wp:meta_value><![CDATA[CEST]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_primary_tribe_events_cat]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_seo_title_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[61]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_meta_description_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[22]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Atelier ROSSA]]></title>
+		<link>http://localhost:8778/venue/atelier-rossa/</link>
+		<pubDate>Wed, 28 Oct 2026 09:50:23 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/venue/atelier-rossa/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>146</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-28 10:50:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-28 09:50:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-28 10:50:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-28 09:50:23]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[atelier-rossa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[tribe_venue]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueOrigin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[events-calendar]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_tribe_modified_fields]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:15:{s:12:"_VenueOrigin";i:1793184623;s:17:"_EventShowMapLink";i:1793184623;s:13:"_EventShowMap";i:1793184623;s:17:"_VenueShowMapLink";i:1793184623;s:13:"_VenueShowMap";i:1793184623;s:13:"_VenueVenueID";i:1793184623;s:13:"_VenueAddress";i:1793184623;s:10:"_VenueCity";i:1793184623;s:13:"_VenueCountry";i:1793184623;s:14:"_VenueProvince";i:1793184623;s:11:"_VenueState";i:1793184623;s:9:"_VenueZip";i:1793184623;s:11:"_VenuePhone";i:1793184623;s:9:"_VenueURL";i:1793184623;s:19:"_VenueStateProvince";i:1793184623;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMapLink]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_EventShowMap]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueShowMapLink]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueShowMap]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueVenueID]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueAddress]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Barbarossastr. 61]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueCity]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Berlin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueCountry]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Germany]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueProvince]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueState]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueZip]]></wp:meta_key>
+		<wp:meta_value><![CDATA[10781]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenuePhone]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueURL]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://www.instagram.com/atelierrossa61/]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_VenueStateProvince]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Header]]></title>
+		<link>http://localhost:8778/header/</link>
+		<pubDate>Sun, 25 Oct 2026 18:16:19 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/header/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"patternName":"twentytwentyfive/header","name":"Header","description":"Site header with site title and navigation.","categories":["header"]},"align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:image {"lightbox":{"enabled":false},"id":33,"sizeSlug":"large","linkDestination":"custom"} -->
+<figure class="wp-block-image size-large"><a href="/" rel="home"><img src="http://localhost:8778/wp-content/uploads/2026/10/textile-buffet-lockup-wide-tagline-pale-lemon-2-1024x256.png" alt="The Textile Buffet: Curated materials. Wearable details." class="wp-image-33"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"always","icon":"menu","overlayBackgroundColor":"base","overlayTextColor":"contrast","layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap"}} --><!-- wp:page-list /--><!-- /wp:navigation --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-25 19:16:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-25 18:16:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-26 14:17:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-26 13:17:04]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[header]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
+		<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Footer]]></title>
+		<link>http://localhost:8778/footer/</link>
+		<pubDate>Sun, 25 Oct 2026 19:25:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/footer/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"patternName":"twentytwentyfive/footer","name":"Footer","description":"Footer columns with logo, title, tagline and links.","categories":["footer"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+<p class="has-text-align-center">© 2026 Madame Unikat and Tina Steinke, Berlin. Web development: <a href="https://www.ingo-steinke.de/" target="_blank" rel="noopener">Ingo Steinke</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-25 20:25:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-25 19:25:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:25:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:25:24]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
+		<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Front Page]]></title>
+		<link>http://localhost:8778/front-page/</link>
+		<pubDate>Mon, 26 Oct 2026 07:53:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/front-page/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentytwentyfive-child"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+		<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+		<!-- wp:post-title {"level":1} /-->
+		<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Displays your site's homepage, whether it is set to display latest posts or a static page. The Front Page template takes precedence over all templates.]]></excerpt:encoded>
+		<wp:post_id>53</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-26 08:53:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-26 07:53:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-26 08:54:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-26 07:54:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[front-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[is_wp_suggestion]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[page-about-us]]></title>
+		<link>http://localhost:8778/page-about-us/</link>
+		<pubDate>Mon, 26 Oct 2026 12:49:53 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/page-about-us/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentytwentyfive-child"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+		<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+		<!-- wp:post-title {"level":1} /-->
+		<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"twentytwentyfive-child"} /-->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>58</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-26 13:49:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-26 12:49:53]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-26 13:50:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-26 12:50:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[page-about-us]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[is_wp_suggestion]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Pages]]></title>
+		<link>http://localhost:8778/page/</link>
+		<pubDate>Mon, 26 Oct 2026 12:50:45 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/page/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentytwentyfive-child"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60);padding-right:0;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-right:0;padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:post-featured-image {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+
+<!-- wp:post-title {"level":1} /-->
+
+<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /--></div>
+<!-- /wp:group --></main>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Displays a static page unless a custom template has been applied to that page or a dedicated template exists.]]></excerpt:encoded>
+		<wp:post_id>60</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-26 13:50:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-26 12:50:45]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 14:42:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 13:42:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>

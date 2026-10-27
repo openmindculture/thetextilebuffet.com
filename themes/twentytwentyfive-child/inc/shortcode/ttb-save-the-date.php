@@ -16,7 +16,7 @@ function save_the_date() {
 				$url = tribe_get_event_website_url( $post );
 				if ( ! empty( $url ) ) {
 					$output .= esc_url( $url );
-					$output .= '" target="_blank">';
+					$output .= '" target="_blank" rel="noopener">';
 				} else {
 					$output .= esc_url( get_permalink( $post ) ) . '">';
 				}

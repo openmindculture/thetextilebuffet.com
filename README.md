@@ -32,3 +32,8 @@ Use a plugin like UpdraftPlus to backup and save the page content (database and 
 Use Quote blocks (not pullquote). The colors schemes will alter automatically. They can optionally be controlled by adding custom CSS class names. ... TODO
 
 Put the quotes in a columns group of two columns that stack on mobile. 
+
+## Customize Events
+
+You can set a custom field `schedule_text` with a text like "Sat 21 + Sun 22 November 2026 (4 sessions)" to replace the default "November 21 @ 5:00 pm – November 22 @ 6:00 pm" which might look misleading.
+

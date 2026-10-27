@@ -113,3 +113,58 @@ function ttb_render_dashboard_widget() {
 </div>
 EOT;
 }
+
+add_filter( 'get_user_option_meta-box-order_tribe_events', function ( $order ) {
+  // ignore !empty($order) custom ordering
+  return array(
+    'normal' => implode( ',', array_unique( array(
+      'postexcerpt',                 // Excerpt
+      'tribe_events_event_details',  // The Events Calendar event details
+      'postcustom',                  // Core custom fields
+      'wpseo_meta',                  // Yoast SEO
+    ) ) ),
+    'side'   => implode( ',', array_unique( array(
+      'submitdiv',      // Publish
+      'postimagediv',   // Featured image
+    ) ) ),
+  );
+} );
+
+add_action( 'admin_head-post.php', 'ttb_enlarge_excerpt' );
+add_action( 'admin_head-post-new.php', 'ttb_enlarge_excerpt' );
+
+function ttb_enlarge_excerpt() {
+  $screen = get_current_screen();
+  if ( ! $screen || 'tribe_events' !== $screen->post_type ) {
+    return;
+  }
+  echo '<style>
+        #postexcerpt textarea#excerpt {
+            height: 250px;
+            width: 100%;
+            resize: vertical;
+        }
+        #postexcerpt h2  {
+          display: inline-block;
+        }
+        #postexcerpt h2::after {
+          content: " (Description in Events List)";
+          display: inline-block;
+          height: auto;
+          padding-left: 1ch;
+        }
+        #event_url h4::after {
+          content: " (Booking Link)";
+          display: inline-block;
+          height: auto;
+          padding-left: 1ch;
+        }
+        #EventInfo {
+          margin-top: 1rem;
+        }
+        #event_tribe_organizer,
+        #event_cost {
+          display: none;
+        }
+    </style>';
+}
