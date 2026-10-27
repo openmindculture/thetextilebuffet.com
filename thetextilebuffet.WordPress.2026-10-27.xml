@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.3" created="2026-10-27 14:54" -->
+	<!-- generator="WordPress/7.1.3" created="2026-10-27 19:42" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>The Textile Buffet</title>
 	<link>http://localhost:8778</link>
 	<description></description>
-	<pubDate>Tue, 27 Oct 2026 14:54:46 +0000</pubDate>
+	<pubDate>Tue, 27 Oct 2026 19:42:26 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8778</wp:base_site_url>
@@ -195,7 +195,7 @@
 		<wp:post_name><![CDATA[privacy-policy]]></wp:post_name>
 		<wp:status><![CDATA[draft]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>9</wp:menu_order>
+		<wp:menu_order>10</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -541,8 +541,58 @@
 <p>What participants say:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><!-- wp:heading -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
+<h2 class="wp-block-heading">Verbindend</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>„Man experimentiert <em>spielerisch</em> mit den Materialien und kommt dabei mit anderen super nett ins Gespräch.“</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lena</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
+<h2 class="wp-block-heading">spielerisch</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>„Es hat richtig <em>Freude</em> gemacht, sich den eigenen Teller zu füllen.“</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Maike</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
+<h2 class="wp-block-heading">relaxing</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>"A <em>relaxed</em>, 'analog' afternoon getting creative with like-minded people"</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Yvonne</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><!-- wp:heading -->
 <h2 class="wp-block-heading">Verbindend</h2>
 <!-- /wp:heading -->
 
@@ -551,33 +601,23 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p></p>
+<p>Lena</p>
 <!-- /wp:paragraph --></blockquote>
-<!-- /wp:quote -->
-
-<!-- wp:pullquote -->
-<figure class="wp-block-pullquote"><blockquote><p>Man experimentiert spielerisch mit den Materialien und kommt dabei mit anderen super nett ins Gespräch.</p><cite>Lena</cite></blockquote></figure>
-<!-- /wp:pullquote -->
-
-<!-- wp:paragraph -->
-<p>☐ Impact Hub case study write-up (2-3 sentences plus the €500 / 2-hr / open-attendance facts)<br>☐ Guest quotes and testimonials collected so far</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>☐ Feedback QR flow: how new testimonials reach the page over time</p>
-<!-- /wp:paragraph -->]]></content:encoded>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>44</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-25 21:01:51]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-25 20:01:51]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 15:39:22]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 14:39:22]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 18:31:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 17:31:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[table-talk]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
+		<wp:menu_order>7</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -609,7 +649,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8778/?page_id=47</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
+		<content:encoded><![CDATA[<!-- wp:group {"className":"is-style-section-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-section-1"><!-- wp:paragraph -->
 <p>The Textile Buffet is a collaboration by</p>
 <!-- /wp:paragraph -->
 
@@ -659,13 +700,14 @@
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->]]></content:encoded>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>47</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-25 21:19:49]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-25 20:19:49]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 12:35:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 11:35:57]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:16:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:16:52]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[about-us]]></wp:post_name>
@@ -830,7 +872,7 @@
 							</item>
 					<item>
 		<title><![CDATA[Buttons_IMG_9134]]></title>
-		<link>http://localhost:8778/the-ingredients/feed-the-buffet/buttons_img_9134/</link>
+		<link>http://localhost:8778/feed-the-buffet/buttons_img_9134/</link>
 		<pubDate>Tue, 27 Oct 2026 13:14:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8778/wp-content/uploads/2026/10/Buttons_IMG_9134.jpg</guid>
@@ -1410,8 +1452,8 @@ What's included:
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"patternName":"twentytwentyfive/footer","name":"Footer","description":"Footer columns with logo, title, tagline and links.","categories":["footer"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph -->
-<p>© 2026 Madame Unikat and Tina Steinke, Berlin. Web development: <a href="https://www.ingo-steinke.de/" target="_blank" rel="noopener">Ingo Steinke</a>.</p>
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+<p class="has-text-align-center">© 2026 Madame Unikat and Tina Steinke, Berlin. Web development: <a href="https://www.ingo-steinke.de/" target="_blank" rel="noopener">Ingo Steinke</a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->]]></content:encoded>
@@ -1419,8 +1461,8 @@ What's included:
 		<wp:post_id>39</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-25 20:25:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-25 19:25:07]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-25 20:25:07]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-25 19:25:07]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:25:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:25:24]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[footer]]></wp:post_name>
@@ -1690,7 +1732,7 @@ What's included:
 							</item>
 					<item>
 		<title><![CDATA[Feed the Buffet]]></title>
-		<link>http://localhost:8778/the-ingredients/feed-the-buffet/</link>
+		<link>http://localhost:8778/feed-the-buffet/</link>
 		<pubDate>Tue, 27 Oct 2026 11:30:51 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8778/?page_id=66</guid>
@@ -1785,14 +1827,14 @@ What's included:
 		<wp:post_id>66</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 12:30:51]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 11:30:51]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 15:52:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 14:52:57]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:11:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:11:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[feed-the-buffet]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>64</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -1822,7 +1864,7 @@ What's included:
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[On the Table (Gallery)]]></title>
+		<title><![CDATA[On the Table]]></title>
 		<link>http://localhost:8778/gallery/</link>
 		<pubDate>Tue, 27 Oct 2026 11:32:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
@@ -1835,14 +1877,14 @@ What's included:
 		<wp:post_id>68</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 12:32:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 11:32:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 15:35:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 14:35:47]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:01:46]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:01:46]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[gallery]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
+		<wp:menu_order>6</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -1865,6 +1907,10 @@ What's included:
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1927,20 +1973,20 @@ What's included:
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>☐ 6-10 questions in plain Q&amp;A form: group size minimums, what's included, what to bring and wear, how<br>sourcing works, cancellation and rescheduling, accessibility<br></p>
+<p><br></p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>71</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 12:33:01]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 11:33:01]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 15:45:09]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 14:45:09]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:09:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:09:52]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[questions]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
+		<wp:menu_order>8</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -1972,7 +2018,11 @@ What's included:
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8778/?page_id=73</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"layout":{"type":"constrained"}} -->
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Intro text then the tally form below.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:html -->
 <iframe data-tally-src="https://tally.so/embed/8NNpyY?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="212" frameborder="0" marginheight="0" marginwidth="0" title="Contact Example"></iframe>
 <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
@@ -1982,14 +2032,14 @@ What's included:
 		<wp:post_id>73</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 12:33:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 11:33:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-10-27 15:53:20]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-10-27 14:53:20]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:10:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:10:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[reserve-your-spot]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>8</wp:menu_order>
+		<wp:menu_order>9</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2012,6 +2062,39 @@ What's included:
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Page No Title]]></title>
+		<link>http://localhost:8778/page-no-title/</link>
+		<pubDate>Tue, 27 Oct 2026 19:23:11 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8778/page-no-title/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentytwentyfive-child"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"}}}} -->
+<main class="wp-block-group" style="margin-top:0"><!-- wp:post-content {"lock":{"move":false,"remove":true},"layout":{"type":"constrained"}} /--></main>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>128</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 20:23:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 19:23:11]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 20:23:11]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 19:23:11]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[page-no-title]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentytwentyfive-child"><![CDATA[twentytwentyfive-child]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
