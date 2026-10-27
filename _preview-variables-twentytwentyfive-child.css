@@ -4,16 +4,24 @@
  */
 
 :root {
-  /* Heading: Karla */
-  --wp--preset--font-family--karla: "Karla", "Verdana", sans-serif;
-  /* Text Body: Work Sans */
-  --wp--preset--font-family--work-sans: "Work Sans", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
-  --wp--preset--color--pale-lemon: #f0efb6;
-  --wp--preset--color--dark-indigo: #160c55;
-  --wp--preset--color--deep-pink: #e01f88;
-  --wp--preset--color--aqua-blue: #3fa1e4;
-  --wp--preset--color--white: #ffffff;
-  --wp--preset-color--black: #000000;
+    /* Heading: Karla */
+    --wp--preset--font-family--karla: "Karla", "Verdana", sans-serif;
+    /* Text Body: Work Sans */
+    --wp--preset--font-family--work-sans: "Work Sans", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+    --wp--preset--color--pale-lemon: #f0efb6;
+    --wp--preset--color--mist: #BED4D3;
+    --wp--preset--color--peach: #F7DDB3;
+    --wp--preset--color--leaf: #537D0C;
+    --wp--preset--color--lavender: #A9A4D9;
+    --wp--preset--color--sky: #14A0DF;
+    --wp--preset--color--magenta: #e01f88;
+    --wp--preset--color--dark-indigo: #160c55;
+    --wp--preset-color--ink: #000000;
+    --wp--preset--color--paper: #ffffff;
+    --wp--preset--color--lime: #C1D262;
+    --wp--preset--color--soft-pink: #F2B8DC;
+    --wp--preset--color--apricot: #F59B42;
+
 
     /* Adjust the colors above to the theme.json palette for a proper editor preview!
      * Auto-generated class names follow the pattern .has-{preset-slug}-{preset-category}

@@ -104,7 +104,10 @@ function ttb_render_dashboard_widget() {
       <a href="/wp-admin/themes.php?page=ttb-rotator">Edit Intro Images</a>
     </li>
     <li>
-          <a href="/wp-admin/edit.php?post_type=ml_galleryr">Edit Gallery</a>
+          <a href="/wp-admin/edit.php?post_type=ml_gallery">Edit Gallery</a>
+    </li>
+        <li>
+          <a href="https://tally.so/" target="_blank" rel="noopener">Edit Tally Forms</a>
     </li>
   </ul>
 </div>

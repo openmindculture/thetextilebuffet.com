@@ -96,7 +96,7 @@ body > .wp-site-blocks {
 }
 
 ::selection {
-    background-color: var(--wp--preset--color--deep-pink);
+    background-color: var(--wp--preset--color--magenta);
     color: var(--wp--preset--color--pale-lemon);
 }
 
@@ -205,7 +205,7 @@ body.home .decoration {
 
 a.buttonlike {
     padding: 1rem 2rem;
-    background-color:var(--wp--preset--color--aqua-blue);
+    background-color:var(--wp--preset--color--sky);
     color: var(--wp--preset--color--pale-lemon);
     border-radius: 1rem;
     text-decoration: none;
@@ -215,7 +215,7 @@ a.buttonlike {
 
 a.buttonlike:hover,
 a.buttonlike:focus {
-    background-color: var(--wp--preset--color--deep-pink);
+    background-color: var(--wp--preset--color--magenta);
     color: var(--wp--preset--color--pale-lemon);
 }
 
@@ -230,7 +230,7 @@ a.buttonlike:focus {
 
 body.home a.buttonlike {
     background-color: var(--wp--preset--color--pale-lemon);
-    color: var(--wp--preset-color--black);
+    color: var(--wp--preset-color--ink);
     font-size: var(--wp--preset--font-size--smaller);
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -283,7 +283,7 @@ body.home .wp-block-navigation__responsive-container-open {
 
 .wp-block-navigation__responsive-container-close:hover,
 .wp-block-navigation__responsive-container-open:hover {
-    color: var(--wp--preset--color--deep-pink);
+    color: var(--wp--preset--color--magenta);
 }
 
 .wp-block-navigation__responsive-container-close {
@@ -312,13 +312,13 @@ body.home .wp-block-navigation__responsive-container-open {
 }
 
 .wp-block-navigation__responsive-container ul li a:hover {
-    background-color: var(--wp--preset--color--deep-pink) !important;
+    background-color: var(--wp--preset--color--magenta) !important;
     color: var(--wp--preset--color--pale-lemon) !important;
 }
 
 /* Keyboard focus only */
 .wp-block-navigation__responsive-container ul li a:focus-visible {
-    background-color: var(--wp--preset--color--deep-pink) !important;
+    background-color: var(--wp--preset--color--magenta) !important;
     color: var(--wp--preset--color--pale-lemon) !important;
     outline: 2px solid currentColor;
     outline-offset: 3px;
@@ -333,7 +333,7 @@ body.home .wp-block-navigation__responsive-container-open {
 }
 
 .wp-block-navigation__responsive-container ul li a:focus:not(:focus-visible):hover {
-    background-color: var(--wp--preset--color--deep-pink) !important;
+    background-color: var(--wp--preset--color--magenta) !important;
     color: var(--wp--preset--color--pale-lemon) !important;
 }
 
