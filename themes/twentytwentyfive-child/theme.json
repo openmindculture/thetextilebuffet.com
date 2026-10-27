@@ -163,6 +163,47 @@
           "fontFamily": "\"Work Sans\", \"Segoe UI\", \"Helvetica Neue\", \"Helvetica\", serif",
           "name": "Work Sans (Text Body)",
           "slug": "work-sans"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Playfair Display",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./fonts/playfair-display-latin-regular.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Playfair Display",
+              "fontStretch": "normal",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": [
+                "file:./fonts/playfair-display-latin-italic.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Playfair Display\", serif",
+          "name": "Playfair (The, Table Talks)",
+          "slug": "playfair-display"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Montserrat",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./fonts/montserrat-latin-500.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Montserrat\", \"Helvetica Neue\", \"Helvetica\", sans-serif",
+          "name": "Montserrat (TEXTILE BUFFET, TABLE TALKS)",
+          "slug": "montserrat"
         }
       ],
       "fontSizes": [

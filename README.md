@@ -27,44 +27,8 @@ Use a plugin like UpdraftPlus to backup and save the page content (database and 
 - UpdraftPlus - Backup/Restore
 - Yoast SEO (wordpress-seo)
 
-TODO add screenshots
+## Table Talks
 
-## building and testing
+Use Quote blocks (not pullquote). The colors schemes will alter automatically. They can optionally be controlled by adding custom CSS class names. ... TODO
 
-- `npm run test`
-- `npm run build`
-- open `dist/index.html` to preview the front page text
-- use the preview server (TODO)
-- deploy to production by pushing the main branch to GitHub
-
-TODO refine and replace initial placeholder
-- use Astro to eliminate redundancies
-- prettify source and export minified
-- refine style
-- add optional image change
-  - use library when it makes sense
-  - use TypeScript and transpile to JS
-- add more content
-- and/or use WP or another CMS suitable for the maintainers
-  - they could edit the front matter in GitHub directly
-  - how to generate and optimize images?
-
-## Material
-
-- color preferences
-- font (preferably free one from Google fonts, hosted locally, matching existing social media material)
-- poster image(s) = also use as social media preview og:image, ld+json
-- logo / favicon
-- initial text
-  - intro paragraph
-  - title claim / subtitle
-- social media links?
-- imprint?
-
-## Manual Image Optimization for Placeholder Page
-
-- save JPEG for web between 70 - 80 quality
-- save another jpeg-master at 95 quality
-- derive webp and avif from the master
-  - `cwebp -q 75 -m 6 -mt -sharp_yuv thetextilebuffet-background-01-master.jpg -o thetextilebuffet-background-01.webp`
-  - `avifenc -q 65 thetextilebuffet-background-01-master.jpg -o thetextilebuffet-background-01.avif`
+Put the quotes in a columns group of two columns that stack on mobile. 

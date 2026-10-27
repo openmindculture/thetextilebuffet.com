@@ -8,6 +8,8 @@
     --wp--preset--font-family--karla: "Karla", "Verdana", sans-serif;
     /* Text Body: Work Sans */
     --wp--preset--font-family--work-sans: "Work Sans", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+    --wp--preset--font-family--playfair-display: "Playfair Display", serif;
+    --wp--preset--font-family--montserrat: "Montserrat", sans-serif;
     --wp--preset--color--pale-lemon: #f0efb6;
     --wp--preset--color--mist: #BED4D3;
     --wp--preset--color--peach: #F7DDB3;
