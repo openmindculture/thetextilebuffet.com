@@ -103,6 +103,9 @@ function ttb_render_dashboard_widget() {
         <li>
       <a href="/wp-admin/themes.php?page=ttb-rotator">Edit Intro Images</a>
     </li>
+    <li>
+          <a href="/wp-admin/edit.php?post_type=ml_galleryr">Edit Gallery</a>
+    </li>
   </ul>
 </div>
 EOT;

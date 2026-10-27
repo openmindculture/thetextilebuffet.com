@@ -20,8 +20,9 @@ Use a plugin like UpdraftPlus to backup and save the page content (database and 
 
 ## Recommended Plugins
 
-- The Events Calendar (TEC)
+- MetaSlider Gallery (ml-slider-lightbox, shortcode: `ml_gallery`)
 - Simple Page Ordering
+- The Events Calendar (TEC)
 - TinyPNG Image Optimization (tiny-compress-images)
 - UpdraftPlus - Backup/Restore
 - Yoast SEO (wordpress-seo)
