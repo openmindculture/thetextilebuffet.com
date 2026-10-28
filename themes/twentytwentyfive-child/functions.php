@@ -16,6 +16,19 @@ require_once( get_stylesheet_directory() . '/inc/image-rotator.php' );
 require_once( get_stylesheet_directory() . '/inc/shortcode/ttb-save-the-date.php');
 
 add_action( 'wp_enqueue_scripts', function() {
+	wp_enqueue_script(
+		'ttb-sticky-header',
+		get_theme_file_uri( '/scripts/sticky-header.js' ),
+		array(),
+		wp_get_theme()->get( 'Version' ),
+		array(
+			'strategy'  => 'defer',
+			'in_footer' => true,
+		)
+	);
+} );
+
+add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'twentytwentyfive-child-style', get_stylesheet_uri() );
 	wp_dequeue_style('twentytwentyfive-style');
 	wp_dequeue_style('twentytwentyfive-block-style');

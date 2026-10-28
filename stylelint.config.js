@@ -5,6 +5,7 @@ export default {
         'alpha-value-notation': null,
         'color-function-notation': null,
         'color-hex-length': null,
+        'color-function-alias-notation': null,
         'comment-empty-line-before': null,
         'comment-whitespace-inside': null,
         'custom-property-empty-line-before': null,

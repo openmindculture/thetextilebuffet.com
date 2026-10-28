@@ -326,6 +326,22 @@ header .wp-block-group:has(nav) {
     align-self: center;
 }
 
+body:not(.home) header.wp-block-template-part {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--wp--preset--color--pale-lemon, #fff);
+}
+
+body:not(.home) header.wp-block-template-part.is-stuck {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body:not(.home) header.wp-block-template-part.is-stuck .wp-block-group.alignwide {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
 .wp-block-navigation__responsive-container {
     padding-top: 3.5rem !important;
 }
