@@ -10,7 +10,7 @@ Description: Twenty Twenty-Five Child supports the WordPress template engine (th
 Requires at least: 6.8
 Tested up to: 7.1
 Requires PHP: 8.2
-Version: 0.2.0
+Version: 0.5.0
 License: proprietary
 */
 
@@ -91,6 +91,18 @@ main > div:first-child {
         max-width: calc(100vw - 2rem);
         margin-left: auto;
         margin-right: auto;
+    }
+    body.home main {
+        height: calc(100vh - 200px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (min-height: 800px) {
+        body.home {
+            overflow-y: hidden;
+        }
     }
 }
 
@@ -294,21 +306,33 @@ body.home a.buttonlike {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-@media screen and (max-width: 768px) {
-    body.home a.buttonlike {
-        font-size: 0.75rem;
-    }
-}
-
-body.home h1.wp-block-post-title + *:has(a.buttonlike) {
-    text-align: center;
-}
-
 body.home h1.wp-block-post-title img {
     display: block;
     width: 60vw;
     max-width: min(60vw, 100%);
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    body.home a.buttonlike {
+        font-size: 0.75rem;
+    }
+    body.home h1,
+    body.home a.buttonlike {
+        max-width: 100%;
+        min-width: unset;
+        display: block;
+        box-sizing: border-box;
+    }
+    body.home h1.wp-block-post-title img {
+        margin: 0 auto;
+        width: 85vw;
+        max-width: unset;
+    }
+}
+
+body.home h1.wp-block-post-title + *:has(a.buttonlike) {
+    text-align: center;
 }
 
 header a[rel="home"] img {
