@@ -217,11 +217,8 @@
       ],
       "fontSizes": [
         {
-          "fluid": {
-            "min": "1.5rem",
-            "max": "2rem"
-          },
-          "size": "2rem",
+          "fluid": false,
+          "size": "1.5rem",
           "slug": "default"
         },
         {
@@ -233,11 +230,8 @@
           "slug": "smaller"
         },
         {
-          "fluid": {
-            "min": "0.75rem",
-            "max": "1.75rem"
-          },
-          "size": "1.75rem",
+          "fluid": false,
+          "size": "1.25rem",
           "slug": "small"
         },
         {
@@ -249,11 +243,8 @@
           "slug": "large"
         },
         {
-          "fluid": {
-            "min": "5rem",
-            "max": "7rem"
-          },
-          "size": "6rem",
+          "fluid": false,
+          "size": "5rem",
           "slug": "largest"
         }
       ]

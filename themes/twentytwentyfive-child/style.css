@@ -10,16 +10,16 @@ Description: Twenty Twenty-Five Child supports the WordPress template engine (th
 Requires at least: 6.8
 Tested up to: 7.1
 Requires PHP: 8.2
-Version: 0.5.0
+Version: 0.6.0
 License: proprietary
 */
 
 :root {
-    --wp--preset--font-size--default: 2rem;
-    --wp--preset--font-size--small: 1.75rem;
+    --wp--preset--font-size--default: 1.5rem;
+    --wp--preset--font-size--small: 1.25rem;
     --wp--preset--font-size--smaller: 1rem;
     --wp--preset--font-size--large: 2.5rem;
-    --wp--preset--font-size--largest: 6rem;
+    --wp--preset--font-size--largest: 5rem;
     /* adaptive header sizes see below */
     --wp--style--global--content-size: 1024px;
     --wp--style--global--wide-size: 2048px;
