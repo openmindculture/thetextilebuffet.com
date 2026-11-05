@@ -55,9 +55,16 @@ body.home header {
   right: 0;
   left: 0;
 }
-body:not(.home) .header a img {
-  margin-top: 1rem;
-  margin-left: 2rem;
+body:not(.home) .header a img,
+body:not(.home) h1 img {
+    position: relative;
+    width: min(885px, 90vw);
+    height: auto;
+    margin-top: 2.5rem;
+    margin: 2.75rem 4vw 0 4vw;
+}
+body:not(.home) h1 img {
+  margin-top: 0;
 }
 main {
     position: relative;
